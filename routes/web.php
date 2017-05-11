@@ -18,3 +18,7 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::group(['prefix' => 'medical'], function () {
+    Route::get('/', 'MedicalPagesController@home')->name('medical-aid');
+});
