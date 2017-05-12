@@ -1,0 +1,124 @@
+.medical-aid-page {
+    /* ========================================================================== */
+    /* HOME PAGE BANNER */
+    /* ========================================================================== */
+    .slide-text-container {
+        display: flex;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        .slide-text {
+            display: flex;
+            align-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 0.9em 4em;
+            background-color: rgba(12, 83, 161, 0.5);
+            z-index: 10;
+            color: $color-white;
+        }
+        .title-text {
+            font-size: 2.5em;
+            z-index: 15;
+            text-transform: uppercase;
+            border-bottom: 2px solid $color-white;
+        }
+        .desc-text {
+            font-size: 2em;
+            z-index: 15;
+            margin-top: 15px;
+            text-transform: uppercase;
+        }
+        a.btn {
+            background: $color-purple;
+            border: 1px solid $color-purple;
+            margin-top: 20px;
+            text-transform: capitalize;
+        }
+    }
+    .slide-container {
+        height: 70vh;
+        .slide {
+            background: url('../medical-aid/images/medical-aid-bg.jpg') no-repeat;
+            background-size: cover;
+            background-position: center center;
+            width: 100%;
+            height: 100%;
+        }
+    }
+    /* ========================================================================== */
+    /* HOME PAGE TABS */
+    /* ========================================================================== */
+    $color-elite:#bf2685;
+    $color-standard:#97999c;
+    $color-standard-plus:#faad05;
+    $color-primary:#29317a;
+    .plans-tabs {
+        .standard-plus {
+            background: $color-standard-plus;
+        }
+        .standard-plus.active {
+            a {
+                border-bottom: 3px solid $color-standard-plus !important;
+                color: $color-standard-plus !important;
+            }
+        }
+        .standard {
+            background: $color-standard;
+        }
+        .standard.active {
+            a {
+                border-bottom: 3px solid $color-standard !important;
+                color: $color-standard !important;
+            }
+        }
+        .primary {
+            background: $color-primary;
+        }
+        .primary.active {
+            a {
+                border-bottom: 3px solid $color-primary !important;
+                color: $color-primary !important;
+            }
+        }
+        .elite {
+            background: $color-elite;
+        }
+        .elite.active {
+            a {
+                border-bottom: 3px solid $color-elite !important;
+                color: $color-elite !important;
+            }
+        }
+        .header-text {
+            color: #ffffff !important;
+        }
+        li:hover {
+            .header-text {
+                color: #3f444a !important;
+            }
+        }
+        .mamoth-plan-content {
+            text-align: center;
+            /* ====================================================================== */
+            /* RESIZE IMAGE ON DESKTOPS */
+            /* ====================================================================== */
+            @media only screen and (min-width: 700px) {
+                img {
+                    height: 300px;
+                    width: auto;
+                }
+            }
+            /* ====================================================================== */
+            /* RESIZE IMAGE ON SMALLER SCREENS */
+            /* ====================================================================== */
+            @media only screen and (max-width: 701px) {
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
+    }
+}

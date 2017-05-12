@@ -36,8 +36,8 @@
                 <div class="col-xs-12 col-md-6 col-md-offset-3">
 
                     <div class="conpanies-links">
-                        <a href="{{route('medical-aid')}}" class="btn btn-sm" type="button"><span>Mamoth Medical Aid Services</span></a>
-                        <a href="#" class="btn btn-sm" type="button"><span>Mamoth Funeral Services</span></a>
+                        <a href="{{route('medical-aid.home')}}" class="btn btn-sm" type="button"><span>Mamoth Medical Aid Services</span></a>
+                        <a  href="{{route('funeral.home')}}" href="#" class="btn btn-sm" type="button"><span>Mamoth Funeral Services</span></a>
 
                     </div>
                 </div>

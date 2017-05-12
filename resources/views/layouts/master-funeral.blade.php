@@ -44,7 +44,7 @@
 
 
   
-<body class="c-layout-header-fixed c-layout-header-mobile-fixed c-layout-header-fullscreen medical-aid-page">
+<body class="c-layout-header-fixed c-layout-header-mobile-fixed c-layout-header-fullscreen funeral-page">
         <!-- BEGIN: LAYOUT/HEADERS/HEADER-1 -->
         <!-- BEGIN: HEADER -->
         <header class="c-layout-header c-layout-header-4  c-layout-header-default-mobile c-header-transparent-dark" data-minimize-offset="80">
@@ -68,23 +68,27 @@
                         <nav class="c-mega-menu c-pull-right c-mega-menu-dark c-mega-menu-dark-mobile c-fonts-uppercase c-fonts-bold">
                             <ul class="nav navbar-nav c-theme-nav">
                                 <li class="c-active">
-                                    <a href="javascript:;" class="c-link dropdown-toggle">Individuals
+                                    <a href="javascript:;" class="c-link dropdown-toggle">Home
                                     </a>
                                 </li>
                                 <li class="c-active">
-                                    <a href="javascript:;" class="c-link dropdown-toggle">Employers
+                                    <a href="javascript:;" class="c-link dropdown-toggle">About Mamothe
                                     </a>
                                 </li>
                                 <li class="c-active">
-                                    <a href="javascript:;" class="c-link dropdown-toggle">Healthcare Providers 
+                                    <a href="javascript:;" class="c-link dropdown-toggle">Find The Right Plan for You
                                     </a>
                                 </li>
                                 <li class="c-active">
-                                    <a href="javascript:;" class="c-link dropdown-toggle">Partners
+                                    <a href="javascript:;" class="c-link dropdown-toggle">Lodge A Claim
                                     </a>
                                 </li>
                                 <li class="c-active">
-                                    <a href="javascript:;" class="c-link dropdown-toggle">Member Log-In
+                                    <a href="javascript:;" class="c-link dropdown-toggle">Sign Up
+                                    </a>
+                                </li>
+                                <li class="c-active">
+                                    <a href="javascript:;" class="c-link dropdown-toggle">Contact Us
                                     </a>
                                 </li>
                                 
@@ -102,18 +106,12 @@
 <section class="c-layout-revo-slider c-layout-revo-slider-13 margin-0" dir="ltr">
     <div class="slide-container">
         <div class="slide">
-            <div class="slide-text-container">
+       <div class="slide-text-container">
                 <slide class="slide-text">
-                    <div class="c-font-bold title-text">We don't sell medical aid..</div>
-                    <div class="desc-text">We sell healthy lifestyles </div>
+                    <div class="c-font-bold title-text">MAMOTHE</div>
+                    <div class="desc-text">Funeral Services </div>
                 </slide>
                 <div>
-                    <div class="banner-links">
-                        <a href="#" type="button" class="btn btn-danger c-btn-circle">
-                            <i class="fa fa-medkit"></i> Find the perfect medical aid Plan</a>
-                        <a href="#" type="button" class="btn btn-danger c-btn-circle">
-                            <i class="fa fa-check "></i> Join The Mamoth Tribe</a>
-                    </div>
                 </div>
             </div>
         </div>
@@ -121,159 +119,10 @@
     </div>
     </div>
 </section>
-<div class="c-content-box c-size-md c-bg-white padding-0">
-    <div class=" ads text-center">
-        <div class="c-content-tab-1 c-theme c-margin-t-30">
-            <img width="70%" src="{{asset('medical-aid/images/ad.jpg')}}" alt="">
-        </div>
-    </div>
-</div>
-<div class="c-content-box c-size-md c-bg-white padding-0 margin-top-30">
-<div class="c-content-title-1">
-                            <h3 class="c-font-uppercase c-center c-font-bold">Benefits</h3>
-                            <div class="c-line-center"></div>
-                        </div>
-    <div class=" plans-tabs">
-               <div class="mamoth-plan-content">
-                   <img src="{{asset('medical-aid/images/mamoth-elite.jpg')}}" alt="">
-                   </div>
-    </div>
-</div>
+
 </div>
         <a name="footer"></a>
         <footer class="c-layout-footer c-layout-footer-6 c-bg-grey-1">
-           <div class="container">
-                <div class="c-prefooter c-bg-white">
-                    <div class="c-head">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="c-left">
-                                    <div class="socicon">
-                                        <a href="#" class="socicon-btn socicon-btn-circle socicon-solid c-bg-grey-1 c-font-grey-2 c-theme-on-hover socicon-facebook tooltips" data-original-title="Facebook" data-container="body"></a>
-                                        <a href="#" class="socicon-btn socicon-btn-circle socicon-solid c-bg-grey-1 c-font-grey-2 c-theme-on-hover socicon-twitter tooltips" data-original-title="Twitter" data-container="body"></a>
-                                        <a href="#" class="socicon-btn socicon-btn-circle socicon-solid c-bg-grey-1 c-font-grey-2 c-theme-on-hover socicon-youtube tooltips" data-original-title="Youtube" data-container="body"></a>
-                                        <a href="#" class="socicon-btn socicon-btn-circle socicon-solid c-bg-grey-1 c-font-grey-2 c-theme-on-hover socicon-tumblr tooltips" data-original-title="Tumblr" data-container="body"></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="c-right">
-                                    <h3 class="c-title c-font-uppercase c-font-bold">Download Mobile App</h3>
-                                    <div class="c-icons">
-                                        <a href="#" class="c-font-30 c-font-green-1 socicon-btn c-bg-grey-1-hover socicon-android tooltips" data-original-title="Android" data-container="body"></a>
-                                        <a href="#" class="c-font-30 c-font-grey-3 socicon-btn c-bg-grey-1-hover socicon-apple tooltips" data-original-title="Apple" data-container="body"></a>
-                                        <a href="#" class="c-font-30 c-font-blue-3 socicon-btn c-bg-grey-1-hover socicon-windows tooltips" data-original-title="Windows" data-container="body"></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="c-line"></div>
-                    <div class="c-body">
-                       <!--
-                            <div class="col-md-4 col-sm-6 col-xs-12">
-                                <ul class="c-links c-theme-ul">
-                                    <li>
-                                        <a href="#">About MAMOTH</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Privacy Policy</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Terms & Conditions</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Delivery</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Promotions</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">News</a>
-                                    </li>
-                                </ul>
-                                <ul class="c-links c-theme-ul">
-                                    <li>
-                                        <a href="#">Blogs</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Projects</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Clients</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Services</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Features</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Stats</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="col-md-5 col-sm-6 col-xs-12">
-                                <div class="c-content-title-1 c-title-md">
-                                    <h3 class="c-title c-font-uppercase c-font-bold">Latest Tweets</h3>
-                                    <div class="c-line-left hide"></div>
-                                </div>
-                                <div class="c-twitter">
-                                    <a class="twitter-timeline" href="https://twitter.com/themehats" data-tweet-limit="2" data-chrome="noheader nofooter noscrollbar noborders transparent"> Loading tweets by @themehats... </a>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-sm-12 col-xs-12">
-                                <div class="c-content-title-1 c-title-md">
-                                    <h3 class="c-title c-font-uppercase c-font-bold">Contact Us</h3>
-                                    <div class="c-line-left hide"></div>
-                                </div>
-                                <p class="c-address c-font-16"> 25, Lorem Lis Street, Orange
-                                    <br/> California, US
-                                    <br/> Phone: 800 123 3456
-                                    <br/> Fax: 800 123 3456
-                                    <br/> Email:
-                                    <a href="mailto:info@MAMOTH.com">
-                                        <span class="c-theme-color">info@MAMOTH.com</span>
-                                    </a>
-                                    <br/> Skype:
-                                    <a href="#">
-                                        <span class="c-theme-color">MAMOTH</span>
-                                    </a>
-                                </p>
-                            </div>
-                        </div>-->
-                    </div>
-                   <!-- <div class="c-line"></div>-->
-                    <div class="c-foot">
-                        <div class="row">
-                            <div class="col-md-7">
-                                <div class="c-content-title-1 c-title-md">
-                                    <h3 class="c-font-uppercase c-font-bold">About
-                                        <span class="c-theme-font">MAMOTH</span>
-                                    </h3>
-                                    <div class="c-line-left hide"></div>
-                                </div>
-                                <p class="c-text c-font-16 c-font-regular">Tolerare unus ducunt ad brevis buxum. Est alter buxum, cesaris. Eheu, lura! Racanas crescere in emeritis oenipons! Ubi est rusticus repressor? Lixa grandis clabulare est. Eposs tolerare.</p>
-                            </div>
-                            <div class="col-md-5">
-                                <div class="c-content-title-1 c-title-md">
-                                    <h3 class="c-font-uppercase c-font-bold">Subscribe to Newsletter</h3>
-                                    <div class="c-line-left hide"></div>
-                                </div>
-                                <div class="c-line-left hide"></div>
-                                <form action="#">
-                                    <div class="input-group input-group-lg c-square">
-                                        <input type="text" class="form-control c-square c-font-grey-3 c-border-grey c-theme" placeholder="Your Email Here" />
-                                        <span class="input-group-btn">
-                                            <button class="btn c-theme-btn c-theme-border c-btn-square c-btn-uppercase c-font-16" type="button">Subscribe</button>
-                                        </span>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> 
             <div class="c-postfooter c-bg-purple">
                 <div class="container">
                     <div class="row">

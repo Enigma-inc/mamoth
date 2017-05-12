@@ -1,0 +1,58 @@
+.c-layout-header-fixed .c-layout-header {
+    position: absolute;
+    background: none !important;
+    background-color: transparent !important;
+}
+
+.c-navbar {
+    background: none !important;
+}
+
+.c-logo {
+    img {
+        height: 80px;
+    }
+}
+
+.c-brand {
+    padding: 0 !important;
+    ;
+    margin: 10px 0 0 0 !important;
+    ;
+}
+
+.c-postfooter {
+    padding: 15px !important;
+}
+
+.c-bg-purple {
+    background: $color-blue !important;
+}
+
+.c-content-title-1>.c-line-center {
+    width: 30px;
+    height: 3px;
+    background-color: $color-purple;
+    margin: 0 auto 30px auto;
+}
+
+
+/* ========================================================================== */
+
+
+/* Mobile Menu Background */
+
+
+/* ========================================================================== */
+
+@media (max-width: 991px) {
+    .c-layout-header .c-navbar .c-mega-menu.c-mega-menu-dark-mobile {
+        background: lighten( #394048, 70%);
+    }
+}
+
+@media (max-width: 991px) {
+    .c-layout-header .c-navbar .c-mega-menu.c-mega-menu-dark-mobile>.nav.navbar-nav>li>.c-link {
+        border-bottom: 1px solid lighten(#404851, 63%);
+    }
+}
