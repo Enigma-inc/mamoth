@@ -157,8 +157,8 @@
         <div class="slide">
             <div class="slide-text-container">
                 <slide class="slide-text">
-                    <div class="c-font-bold title-text">We don't sell medical aid..</div>
-                    <div class="desc-text">We sell healthy lifestyles </div>
+                    <div class="c-font-bold title-text">We don't just sell medical aid..</div>
+                    <div class="desc-text">We promote healthy lifestyles </div>
                 </slide>
                 <div>
                     <div class="banner-links">
