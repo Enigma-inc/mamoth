@@ -125,6 +125,10 @@
                                 </li>
 
                                 <li class="">
+                                    <a href="javascript:;" class="c-link dropdown-toggle">Students
+                                    </a>
+                                </li>
+                                <li class="">
                                     <a href="javascript:;" class="c-link dropdown-toggle">Healthcare Providers 
                                     </a>
                                 </li>
