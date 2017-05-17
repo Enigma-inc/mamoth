@@ -1,0 +1,22 @@
+.social-media-container {
+    position: fixed;
+    top: 100px;
+    top: 20vh;
+    right: 0;
+    z-index: 20;
+    .socicon {
+        display: flex;
+        flex-direction: column;
+        a {
+            font-size: 16px;
+            line-height:35px;   
+            color: #fff !important;
+        }
+    }
+    .socicon-btn.socicon-solid {
+    width: 35px;
+    height: 35px;
+    text-align:center;
+    padding:0 !important;
+}
+}

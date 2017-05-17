@@ -29,6 +29,9 @@
             z-index: 15;
             margin-top: 15px;
             text-transform: uppercase;
+            @media(max-width: 410px) {
+                font-size: 1em;
+            }
         }
         a.btn {
             background: $color-purple;

@@ -53,9 +53,9 @@
                     <div class="c-navbar-wrapper clearfix">
                         <div class="c-brand c-pull-left">
                             <a href="#" class="c-logo">
-                                <img src="{{asset('images/logo.png')}}"  alt="Mamoth" class="c-desktop-logo">
-                                <img src="{{asset('images/logo.png')}}"  alt="Mamoth" class="c-desktop-logo-inverse">
-                                <img src="{{asset('images/logo.png')}}"  alt="Mamoth" class="c-mobile-logo"> </a>
+                                <img src="{{asset('funeral/images/mamothe-logo-landscape.png')}}"  alt="Mamoth" class="c-desktop-logo">
+                                <img src="{{asset('funeral/images/mamothe-logo-landscape.png')}}"  alt="Mamoth" class="c-desktop-logo-inverse">
+                                <img src="{{asset('funeral/images/mamothe-logo-landscape.png')}}"  alt="Mamoth" class="c-mobile-logo"> </a>
                             <button class="c-hor-nav-toggler" type="button" data-target=".c-mega-menu">
                                 <span class="c-line"></span>
                                 <span class="c-line"></span>
@@ -108,7 +108,7 @@
         <div class="slide">
        <div class="slide-text-container">
                 <slide class="slide-text">
-                    <div class="c-font-bold title-text">MAMOTHE</div>
+                    <div class="c-font-bold title-text"><img width="200px" src="{{asset('funeral/images/mamothe-white.png')}}" alt="Mamothe"></div>
                     <div class="desc-text">Funeral Services </div>
                 </slide>
                 <div>

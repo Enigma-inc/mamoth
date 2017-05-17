@@ -45,183 +45,22 @@
 
   
 <body class="c-layout-header-fixed c-layout-header-mobile-fixed c-layout-header-fullscreen medical-aid-page">
-        <!-- BEGIN: LAYOUT/HEADERS/HEADER-1 -->
-        <!-- BEGIN: HEADER -->
-        <header class="c-layout-header c-layout-header-4  c-layout-header-default-mobile c-header-transparent-dark" data-minimize-offset="80">
-            <div class="c-navbar">
-                <div class="container">
-                    <div class="c-navbar-wrapper clearfix">
-                        <div class="c-brand c-pull-left">
-                            <a href="#" class="c-logo">
-                                <img src="{{asset('images/logo.png')}}"  alt="Mamoth" class="c-desktop-logo">
-                                <img src="{{asset('images/logo.png')}}"  alt="Mamoth" class="c-desktop-logo-inverse">
-                                <img src="{{asset('images/logo.png')}}"  alt="Mamoth" class="c-mobile-logo"> </a>
-                            <button class="c-hor-nav-toggler" type="button" data-target=".c-mega-menu">
-                                <span class="c-line"></span>
-                                <span class="c-line"></span>
-                                <span class="c-line"></span>
-                            </button>
-                            <button class="c-topbar-toggler" type="button">
-                                <i class="fa fa-ellipsis-v"></i>
-                            </button>
-                        </div>
-                        <nav class="c-mega-menu c-pull-right c-mega-menu-light c-mega-menu-light-mobile  c-fonts-uppercase c-fonts-bold">
-                            <ul class="nav navbar-nav c-theme-nav">
-                             <li class="c-active">
-                                    <a href="javascript:;" class="c-link dropdown-toggle">Home
-                                    </a>
-                                </li>
-                              <li class="c-menu-type-classic">
-                                    <a href="javascript:;" class="c-link dropdown-toggle">Individuals
-                                        <span class="c-arrow c-toggler"></span>
-                                    </a>
-                                    <ul class="dropdown-menu c-menu-type-classic c-pull-left">
-                                        <li class="dropdown-submenu">
-                                            <a href="javascript:;">I Want To...
-                                            </a>
-                                        </li>
-                                        <li class="dropdown-submenu">
-                                            <a href="javascript:;">Lodge a claim 
-                                            </a>
-                                        </li>
-                                        <li class="dropdown-submenu">
-                                            <a href="javascript:;">Find a Medical Doctor
-                                            </a>
-                                        </li>
-                                        <li class="dropdown-submenu">
-                                            <a href="javascript:;">Request a Quotation
-                                            </a>
-                                        </li>
-                                        <li class="dropdown-submenu">
-                                            <a href="javascript:;">Login to my Account
-                                            </a>
-                                        </li>
-
-                                    </ul>
-                                </li>
-                              <li class="c-menu-type-classic">
-                                    <a href="javascript:;" class="c-link dropdown-toggle">Employers
-                                        <span class="c-arrow c-toggler"></span>
-                                    </a>
-                                    <ul class="dropdown-menu c-menu-type-classic c-pull-left">
-                                        <li class="dropdown-submenu">
-                                            <a href="javascript:;">I Want To...
-                                            </a>
-                                        </li>
-                                        <li class="dropdown-submenu">
-                                            <a href="javascript:;">Request a Quotation
-                                            </a>
-                                        </li>
-                                        <li class="dropdown-submenu">
-                                            <a href="javascript:;">Download Forms
-                                            </a>
-                                        </li>
-                                        <li class="dropdown-submenu">
-                                            <a href="javascript:;">Login to my Account
-                                            </a>
-                                        </li>
-
-                                    </ul>
-                                </li>
-
-                                <li class="">
-                                    <a href="javascript:;" class="c-link dropdown-toggle">Students
-                                    </a>
-                                </li>
-                                <li class="">
-                                    <a href="javascript:;" class="c-link dropdown-toggle">Healthcare Providers 
-                                    </a>
-                                </li>
-                                <li class="">
-                                    <a href="javascript:;" class="c-link dropdown-toggle">Partners
-                                    </a>
-                                </li>
-                                <li class="">
-                                    <a href="javascript:;" class="c-link dropdown-toggle">Member Log-In
-                                    </a>
-                                </li>
-                                
-                         
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-        </header>
-
-
-        </div>
+   @include('medical.home.partials.header')
 <div class="c-layout-page">
-<section class="c-layout-revo-slider c-layout-revo-slider-13 margin-0" dir="ltr">
-    <div class="slide-container">
-        <div class="slide">
-            <div class="slide-text-container">
-                <slide class="slide-text">
-                    <div class="c-font-bold title-text">We don't just sell medical aid..</div>
-                    <div class="desc-text">We promote healthy lifestyles </div>
-                </slide>
-                <div>
-                    <div class="banner-links">
-                        <a href="#" type="button" class="btn btn-danger c-btn-circle">
-                            <i class="fa fa-medkit"></i> Find the perfect medical aid Plan</a>
-                        <a href="#" type="button" class="btn btn-danger c-btn-circle">
-                            <i class="fa fa-check "></i> Join The Mamoth Tribe</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-    </div>
-</section>
-<div class="c-content-box c-size-md c-bg-white padding-0">
-    <div class=" ads text-center">
-        <div class="c-content-tab-1 c-theme c-margin-t-30">
-            <img width="70%" src="{{asset('medical-aid/images/ad.jpg')}}" alt="">
-        </div>
-    </div>
+ @include('medical.home.partials.banner')
+<div class="">
+ @include('medical.home.partials.ads')
+ @include('medical.home.partials.options')
+ @include('social-media')
 </div>
-<div class="c-content-box c-size-md c-bg-white padding-0 margin-top-30">
-<div class="c-content-title-1">
-                            <h3 class="c-font-uppercase c-center c-font-bold">Benefits</h3>
-                            <div class="c-line-center"></div>
-                        </div>
-    <div class=" plans-tabs">
-               <div class="mamoth-plan-content">
-                   <img src="{{asset('medical-aid/images/mamoth-elite.jpg')}}" alt="">
-                   </div>
-    </div>
+
+
 </div>
 </div>
         <a name="footer"></a>
         <footer class="c-layout-footer c-layout-footer-6 c-bg-grey-1">
            <div class="container">
                 <div class="c-prefooter c-bg-white">
-                    <div class="c-head">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="c-left">
-                                    <div class="socicon">
-                                        <a href="#" class="socicon-btn socicon-btn-circle socicon-solid c-bg-grey-1 c-font-grey-2 c-theme-on-hover socicon-facebook tooltips" data-original-title="Facebook" data-container="body"></a>
-                                        <a href="#" class="socicon-btn socicon-btn-circle socicon-solid c-bg-grey-1 c-font-grey-2 c-theme-on-hover socicon-twitter tooltips" data-original-title="Twitter" data-container="body"></a>
-                                        <a href="#" class="socicon-btn socicon-btn-circle socicon-solid c-bg-grey-1 c-font-grey-2 c-theme-on-hover socicon-youtube tooltips" data-original-title="Youtube" data-container="body"></a>
-                                        <a href="#" class="socicon-btn socicon-btn-circle socicon-solid c-bg-grey-1 c-font-grey-2 c-theme-on-hover socicon-tumblr tooltips" data-original-title="Tumblr" data-container="body"></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="c-right">
-                                    <h3 class="c-title c-font-uppercase c-font-bold">Download Mobile App</h3>
-                                    <div class="c-icons">
-                                        <a href="#" class="c-font-30 c-font-green-1 socicon-btn c-bg-grey-1-hover socicon-android tooltips" data-original-title="Android" data-container="body"></a>
-                                        <a href="#" class="c-font-30 c-font-grey-3 socicon-btn c-bg-grey-1-hover socicon-apple tooltips" data-original-title="Apple" data-container="body"></a>
-                                        <a href="#" class="c-font-30 c-font-blue-3 socicon-btn c-bg-grey-1-hover socicon-windows tooltips" data-original-title="Windows" data-container="body"></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="c-line"></div>
                     <div class="c-body">
                        <!--
                             <div class="col-md-4 col-sm-6 col-xs-12">
