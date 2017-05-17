@@ -9,10 +9,9 @@
         justify-content: flex-end;
         flex-direction: column;
         padding-bottom: 1em;
-         @media(max-width: 550px) {
-                justify-content: center;
-                
-            }
+        @media(max-width: 550px) {
+            justify-content: center;
+        }
         .slide-text {
             display: flex;
             align-content: flex-end;
@@ -26,7 +25,6 @@
             @media(max-width: 761px) {
                 padding: 0;
                 width: 100%;
-                
             }
         }
         .title-text {
@@ -57,7 +55,8 @@
                 margin-top: 20px;
                 text-transform: capitalize;
                 @media(max-width: 502px) {
-                    font-size: 2vw;
+                    font-size: .8em;
+                    font-size: 3.5vw;
                     width: 100%;
                     margin-left: 0;
                 }
@@ -93,7 +92,7 @@
         .bg-color {
             background-attachment: fixed;
             background-size: cover;
-            background-color: rgba(255, 255, 255, .90);
+            background-color: rgba(255, 255, 255, .80);
             height: 100%;
             padding: 60px 0;
         }
