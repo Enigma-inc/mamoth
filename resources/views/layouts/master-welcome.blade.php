@@ -44,11 +44,11 @@
 
 
             </div>
+
+
         </div>
     </div>
-    <!--Container End-->
-
-    <!--Footer-->
+   @include('social-media')
     <footer class="footer">
         <div>
             <ul class="footer-icons">

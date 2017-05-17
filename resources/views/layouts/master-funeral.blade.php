@@ -121,7 +121,7 @@
 </section>
 
 </div>
-        <a name="footer"></a>
+  @include('social-media')
         <footer class="c-layout-footer c-layout-footer-6 c-bg-grey-1">
             <div class="c-postfooter c-bg-purple">
                 <div class="container">
