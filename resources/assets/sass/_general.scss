@@ -90,3 +90,26 @@
         background: #fff;
     }
 }
+
+
+/* ========================================================================== */
+
+
+/* Mobile Menu Background */
+
+
+/* ========================================================================== */
+
+.find-doctor-page {
+    .c-content-panel {
+        border: 1px solid lighten($color-purple, 45%);
+        height: 230px;
+        .country-label {
+            font-size: 1.3em;
+            font-weight: 600;
+            padding-right: 2em;
+            color: $color-white;
+            background: $color-purple;
+        }
+    }
+}

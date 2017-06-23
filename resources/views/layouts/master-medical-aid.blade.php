@@ -36,6 +36,8 @@
         <link href="{{asset('medical-aid/assets/base/css/components.css')}}" id="style_components" rel="stylesheet" type="text/css" />
         <link href="{{asset('medical-aid/assets/base/css/themes/default.css')}}" rel="stylesheet" id="style_theme" type="text/css" />
         <link href="{{asset('medical-aid/assets/base/css/custom.css')}}" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="{{asset('libs/slick/slick.css')}}"/>
+        <link rel="stylesheet" type="text/css" href="{{asset('libs/slick/slick-theme.css')}}"/>
         <link href="{{mix('css/app.css')}}" rel="stylesheet" type="text/css" />
         <!-- END THEME STYLES -->
         <link rel="shortcut icon" href="favicon.ico" /> 
@@ -45,17 +47,8 @@
 
   
 <body class="c-layout-header-fixed c-layout-header-mobile-fixed c-layout-header-fullscreen medical-aid-page">
-   @include('medical.home.partials.header')
-<div class="c-layout-page">
- @include('medical.home.partials.banner')
-<div class="">
- @include('medical.home.partials.ads')
- @include('medical.home.partials.options')
- @include('social-media')
-</div>
-
-
-</div>
+   @include('medical.partials.header')
+   @yield('content')
 </div>
         <a name="footer"></a>
         <footer class="c-layout-footer c-layout-footer-6 c-bg-grey-1">
@@ -221,13 +214,8 @@
                 App.init(); // init core    
             });
         </script>
-        <!-- END: THEME SCRIPTS -->
-        <!-- BEGIN: PAGE SCRIPTS -->
-        <script src="{{asset('medical-aid/assets/plugins/revo-slider/js/extensions/revolution.extension.kenburn.min.js')}}" type="text/javascript"></script>
-        <script src="{{asset('medical-aid/assets/plugins/revo-slider/js/extensions/revolution.extension.parallax.min.js')}}" type="text/javascript"></script>
-        <script src="{{asset('medical-aid/assets/base/js/scripts/revo-slider/slider-13.js')}}" type="text/javascript"></script>
-        <!-- END: PAGE SCRIPTS -->
-        <!-- END: LAYOUT/BASE/BOTTOM -->
+        <script type="text/javascript" src="{{asset('libs/slick/slick.min.js')}}"></script>
+        @yield('page-script')
     </body>
 
 

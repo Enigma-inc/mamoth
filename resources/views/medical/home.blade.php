@@ -1,6 +1,14 @@
 @extends('layouts.master-medical-aid')
 @section('content')
-    
-<h1>Medical Home  -- With Master Layout</h1>
+<div class="c-layout-page">
+ @include('medical.home.partials.banner')
+<div class="">
+ @include('medical.home.partials.ads')
+ @include('medical.home.partials.options')
+ @include('social-media')
+</div>
+
+
+</div>
 @endsection
 

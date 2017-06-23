@@ -1,0 +1,22 @@
+.become-member-page {
+    .step-container {
+        background: $color-purple;
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        border-radius: 60px;
+        .step {
+            line-height: 60px;
+            font-size: 1.5em;
+            font-weight: 600;
+            color: #ffffff;
+        }
+    }
+    .member-option {
+        width: 100%;
+    }
+    .slick-prev:before,
+    .slick-next:before {
+        color: $color-purple;
+    }
+}

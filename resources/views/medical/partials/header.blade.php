@@ -32,11 +32,15 @@
                                             </a>
                                         </li>
                                         <li class="dropdown-submenu">
-                                            <a href="javascript:;">Lodge a claim 
+                                            <a href="{{route('medical-aid.become-member')}}">Become A Member
                                             </a>
                                         </li>
                                         <li class="dropdown-submenu">
-                                            <a href="javascript:;">Find a Medical Doctor
+                                            <a href="{{route('medical-aid.benefits')}}">Discover Benefits
+                                            </a>
+                                        </li>
+                                        <li class="dropdown-submenu">
+                                            <a href="{{route('medical-aid.find-doctor')}}">Find A Doctor
                                             </a>
                                         </li>
                                         <li class="dropdown-submenu">
