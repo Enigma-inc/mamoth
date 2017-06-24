@@ -44,6 +44,10 @@
                                             </a>
                                         </li>
                                         <li class="dropdown-submenu">
+                                            <a href="{{route('medical-aid.lodge-claim')}}">Lodge A Claim
+                                            </a>
+                                        </li>
+                                        <li class="dropdown-submenu">
                                             <a href="javascript:;">Request a Quotation
                                             </a>
                                         </li>
@@ -63,12 +67,20 @@
                                             <a href="javascript:;">I Want To...
                                             </a>
                                         </li>
-                                        <li class="dropdown-submenu">
-                                            <a href="javascript:;">Request a Quotation
+                                          <li class="dropdown-submenu">
+                                            <a href="{{route('medical-aid.become-member')}}">Become A Member
                                             </a>
                                         </li>
                                         <li class="dropdown-submenu">
-                                            <a href="javascript:;">Download Forms
+                                            <a href="{{route('medical-aid.benefits')}}">Discover Benefits
+                                            </a>
+                                        </li>
+                                        <li class="dropdown-submenu">
+                                            <a href="{{route('medical-aid.find-doctor')}}">Find A Doctor
+                                            </a>
+                                        </li>
+                                        <li class="dropdown-submenu">
+                                            <a href="{{route('medical-aid.lodge-claim')}}">Lodge A Claim
                                             </a>
                                         </li>
                                         <li class="dropdown-submenu">
@@ -79,9 +91,37 @@
                                     </ul>
                                 </li>
 
-                                <li class="">
+                                 <li class="c-menu-type-classic">
                                     <a href="javascript:;" class="c-link dropdown-toggle">Students
+                                        <span class="c-arrow c-toggler"></span>
                                     </a>
+                                    <ul class="dropdown-menu c-menu-type-classic c-pull-left">
+                                        <li class="dropdown-submenu">
+                                            <a href="javascript:;">I Want To...
+                                            </a>
+                                        </li>
+                                          <li class="dropdown-submenu">
+                                            <a href="{{route('medical-aid.become-member')}}">Become A Member
+                                            </a>
+                                        </li>
+                                        <li class="dropdown-submenu">
+                                            <a href="{{route('medical-aid.benefits')}}">Discover Benefits
+                                            </a>
+                                        </li>
+                                        <li class="dropdown-submenu">
+                                            <a href="{{route('medical-aid.find-doctor')}}">Find A Doctor
+                                            </a>
+                                        </li>
+                                        <li class="dropdown-submenu">
+                                            <a href="{{route('medical-aid.lodge-claim')}}">Lodge A Claim
+                                            </a>
+                                        </li>
+                                        <li class="dropdown-submenu">
+                                            <a href="javascript:;">Login to my Account
+                                            </a>
+                                        </li>
+
+                                    </ul>
                                 </li>
                                 <li class="">
                                     <a href="javascript:;" class="c-link dropdown-toggle">Healthcare Providers 

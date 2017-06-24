@@ -19,4 +19,7 @@ class MedicalPagesController extends Controller
     public function findDoctor(){
         return view('medical.find-doctor.doctors');
     }
+    public function lodgeClaim(){
+        return view('medical.claim.lodge-claim');
+    }
 }
