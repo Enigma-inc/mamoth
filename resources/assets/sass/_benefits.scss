@@ -1,9 +1,4 @@
 .benefits-page {
-    .major-benefits {
-        .benefit-container {
-            height: 210px;
-        }
-    }
     .benefit-container {
         display: flex;
         flex-direction: column;
@@ -12,8 +7,7 @@
             height: 50px;
             // border: 1px dashed $color-white;
             background: $color-purple;
-            border-bottom-left-radius: 25px;
-            border-top-left-radius: 25px;
+            border-radius: 25px;
             .icon {
                 width: 50px;
                 width: 50px;
@@ -34,6 +28,8 @@
                 text-align: justify;
                 word-spacing: -2px;
                 color: #000;
+                font-size: 0.9em;
+                padding: 0 15px;
             }
         }
     }
@@ -54,6 +50,11 @@
     .day-to-day {
         .benefit-container {
             height: 210px;
+        }
+    }
+    .major-benefits {
+        .benefit-container {
+            height: 230px;
         }
     }
 }

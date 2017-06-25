@@ -9,7 +9,7 @@
                         <div class="c-content-title-1 c-margin-b-20">
                             <h3 class="c-center c-font-uppercase c-font-bold"> Become a member </h3>
                             <div class="c-line-center"></div>
-                            <p class="c-center c-font-uppercase c-font-17"> With a variety of comprehensive benefits available, it is not difficult to spot those that definitely touch on your unique health needs.</p>
+                            <p class="c-font-17"> With a variety of comprehensive benefits available, it is not difficult to spot those that definitely touch on your unique health needs.</p>
                         </div>
                     </div>
                 </div>

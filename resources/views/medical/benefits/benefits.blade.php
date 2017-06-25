@@ -9,7 +9,7 @@
                         <div class="c-content-title-1 c-margin-b-20">
                             <h3 class="c-center c-font-uppercase c-font-bold"> Discover Benefits </h3>
                             <div class="c-line-center"></div>
-                            <p class="c-center c-font-uppercase c-font-17"> In addressing health care and healthy lifestyles, we do not just offer medical aid options, we
+                            <p class="c-font-17"> In addressing health care and healthy lifestyles, we do not just offer medical aid options, we
                                 offer unique value-added and comprehensive benefits.</p>
                         </div>
                     </div>

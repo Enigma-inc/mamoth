@@ -21,6 +21,9 @@
                         prior arrangements are to be made with us, except for hospital admissions. Immediate benefits confirmation
                         will be done while you wait at the point of service.
                     </p>
+                    <p class="margin-bottom-20">
+                    Need to find a doctor or specialist? No matter what plan you are on, no prior arrangements are to be made with us, except for hospital admissions. Immediate benefits confirmation will be done while you wait at the point of service.
+                    </p>
                 </div>
                 <div class="c-content-panel col-md-6">
                     <div class="c-label country-label">Lesotho</div>

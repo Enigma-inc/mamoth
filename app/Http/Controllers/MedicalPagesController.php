@@ -10,16 +10,31 @@ class MedicalPagesController extends Controller
         return view('medical.home');
     }
     public function becomeMember(){
-        return view('medical.become-member.index');
+   
+        return view('medical.become-member.index')->with(['headerImage'=>$this->getRandomHeaderImage()]);
     }
     public function benefits(){
-        return view('medical.benefits.benefits');
+        return view('medical.benefits.benefits')->with(['headerImage'=>$this->getRandomHeaderImage()]);
     }
 
     public function findDoctor(){
-        return view('medical.find-doctor.doctors');
+        return view('medical.find-doctor.doctors')->with(['headerImage'=>$this->getRandomHeaderImage()]);
     }
     public function lodgeClaim(){
-        return view('medical.claim.lodge-claim');
+        return view('medical.claim.lodge-claim')->with(['headerImage'=>$this->getRandomHeaderImage()]);
     }
+
+    private function getRandomHeaderImage()
+    {
+        $files=glob('medical-aid/images/headers/header-*.jpg');
+        if($files!==false)
+        {
+            $fileCount=count($files);
+            return 'header-'.rand(1,$fileCount).'.jpg';
+        }
+        //if there no files then return this
+    return 'header-1.jpg';
+        
+    }
+
 }

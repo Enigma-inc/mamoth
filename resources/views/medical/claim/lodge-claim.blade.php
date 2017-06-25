@@ -7,7 +7,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="c-content-title-1 c-margin-b-20">
-                        <h3 class="c-center c-font-uppercase c-font-bold"> Find A Doctor </h3>
+                        <h3 class="c-center c-font-uppercase c-font-bold"> Lodge A Claim </h3>
                         <div class="c-line-center"></div>
                         <p></p>
                     </div>

@@ -6,11 +6,13 @@
             }
             height: 40vh;
             .slide {
-                background: url('../medical-aid/images/medical-aid-banner-bg.jpg') no-repeat;
-                background-size: cover;
-                background-position: center center;
                 width: 100%;
                 height: 100%;
+                .cover {
+                    width: 100%;
+                    height: 100%;
+                    background: rgba(255, 255, 255, .7);
+                }
             }
         }
     }
