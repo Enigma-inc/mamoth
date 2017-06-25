@@ -49,84 +49,13 @@
 <body class="c-layout-header-fixed c-layout-header-mobile-fixed c-layout-header-fullscreen medical-aid-page">
    @include('medical.partials.header')
    @yield('content')
+   @include('social-media')
 </div>
         <a name="footer"></a>
         <footer class="c-layout-footer c-layout-footer-6 c-bg-grey-1">
            <div class="container">
                 <div class="c-prefooter c-bg-white">
                     <div class="c-body">
-                       <!--
-                            <div class="col-md-4 col-sm-6 col-xs-12">
-                                <ul class="c-links c-theme-ul">
-                                    <li>
-                                        <a href="#">About MAMOTH</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Privacy Policy</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Terms & Conditions</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Delivery</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Promotions</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">News</a>
-                                    </li>
-                                </ul>
-                                <ul class="c-links c-theme-ul">
-                                    <li>
-                                        <a href="#">Blogs</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Projects</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Clients</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Services</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Features</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Stats</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="col-md-5 col-sm-6 col-xs-12">
-                                <div class="c-content-title-1 c-title-md">
-                                    <h3 class="c-title c-font-uppercase c-font-bold">Latest Tweets</h3>
-                                    <div class="c-line-left hide"></div>
-                                </div>
-                                <div class="c-twitter">
-                                    <a class="twitter-timeline" href="https://twitter.com/themehats" data-tweet-limit="2" data-chrome="noheader nofooter noscrollbar noborders transparent"> Loading tweets by @themehats... </a>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-sm-12 col-xs-12">
-                                <div class="c-content-title-1 c-title-md">
-                                    <h3 class="c-title c-font-uppercase c-font-bold">Contact Us</h3>
-                                    <div class="c-line-left hide"></div>
-                                </div>
-                                <p class="c-address c-font-16"> 25, Lorem Lis Street, Orange
-                                    <br/> California, US
-                                    <br/> Phone: 800 123 3456
-                                    <br/> Fax: 800 123 3456
-                                    <br/> Email:
-                                    <a href="mailto:info@MAMOTH.com">
-                                        <span class="c-theme-color">info@MAMOTH.com</span>
-                                    </a>
-                                    <br/> Skype:
-                                    <a href="#">
-                                        <span class="c-theme-color">MAMOTH</span>
-                                    </a>
-                                </p>
-                            </div>
-                        </div>-->
                     </div>
                    <!-- <div class="c-line"></div>-->
                     <div class="c-foot">

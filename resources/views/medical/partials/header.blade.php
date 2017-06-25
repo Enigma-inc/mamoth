@@ -3,7 +3,7 @@
                 <div class="">
                     <div class="c-navbar-wrapper clearfix">
                         <div class="c-brand c-pull-left">
-                            <a href="#" class="c-logo">
+                            <a href="{{route('medical-aid.home')}}" class="c-logo">
                                 <img src="{{asset('images/logo-landscape.png')}}"  alt="Mamoth" class="c-desktop-logo">
                                 <img src="{{asset('images/logo-landscape.png')}}"  alt="Mamoth" class="c-desktop-logo-inverse">
                                 <img src="{{asset('images/logo-landscape.png')}}"  alt="Mamoth" class="c-mobile-logo"> </a>
@@ -19,7 +19,7 @@
                         <nav class="c-mega-menu c-pull-right c-mega-menu-light c-mega-menu-light-mobile  c-fonts-uppercase c-fonts-bold">
                             <ul class="nav navbar-nav c-theme-nav">
                              <li class="c-active">
-                                    <a href="javascript:;" class="c-link dropdown-toggle">Home
+                                    <a href="{{route('medical-aid.home')}}" class="c-link dropdown-toggle">Home
                                     </a>
                                 </li>
                               <li class="c-menu-type-classic">

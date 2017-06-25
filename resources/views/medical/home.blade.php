@@ -5,7 +5,7 @@
 <div class="">
  @include('medical.home.partials.ads')
  @include('medical.home.partials.options')
- @include('social-media')
+ 
 </div>
 
 
