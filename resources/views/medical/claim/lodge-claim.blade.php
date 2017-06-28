@@ -26,15 +26,11 @@
                                 <li>Relevant ICD-10 code per claim line</li>
                             </ul>
                     </p>
-                    <p>Send the claim to <a href="mailto:claims@mamothhealth.com">claims@mamothhealth.com</a></p>
-                    <p>If your healthcare professional or the hospital claims on your behalf:</p>
-                    <p>Usually, your healthcare professional will send your medical aid claim to us on your behalf, so you don’t need to claim as well. If your healthcare professional tells you that they haven’t been paid, you can check your claims status on <a target="_blank" href="www.fedhealth.co.za ">www.fedhealth.co.za </a>
-                      or contact us on <a href="tel:0860 002 153">0860 002 153</a>.</p>
-                      <p>If your healthcare professional doesn’t claim on your behalf, or if you’ve already paid, you must send us the following:</p>
-                      <p>Proof of payment. <br>
-                        The medical aid claim (the account). Make sure the account shows your membership number, the practice number, the ICD10 and procedure codes.<br>
-                        If we approve the claim, we’ll refund you directly into your bank account. For this reason, always make sure that we have your correct bank details. To update them, call us on 0860 002 153 or email fedhealth@medscheme.co.za.
-                     </p>
+                    <p>Attach receipt which also reflects your banking details and mark the account as “Member Refund”.</p>
+                   <p>If your claim is approved, you will be refunded directly into your bank account. For this reason, always make sure that we have your correct bank details.
+              <br> All claims are emailed to: <a href="mailto:claims@mamothhealth.com">claims@mamothhealth.com</a>
+              <p><em > <strong>Note:</strong> You must submit your medical aid claim within four (4) months of the date of treatment. Older claims will be considered expired and will therefore not be paid.</em></p>
+</p>
                 </div>
                 <div>
                     

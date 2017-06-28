@@ -32,7 +32,7 @@
                                             </a>
                                         </li>
                                         <li class="dropdown-submenu">
-                                            <a href="{{route('medical-aid.become-member')}}">Become A Member
+                                            <a href="{{route('medical-aid.become-member',['type'=>'individual'])}}">Become A Member
                                             </a>
                                         </li>
                                         <li class="dropdown-submenu">
@@ -68,7 +68,7 @@
                                             </a>
                                         </li>
                                           <li class="dropdown-submenu">
-                                            <a href="{{route('medical-aid.become-member')}}">Become A Member
+                                            <a href="#">Become A Member
                                             </a>
                                         </li>
                                         <li class="dropdown-submenu">
@@ -101,7 +101,7 @@
                                             </a>
                                         </li>
                                           <li class="dropdown-submenu">
-                                            <a href="{{route('medical-aid.become-member')}}">Become A Member
+                                            <a href="{{route('medical-aid.become-member',['type'=>'student'])}}">Become A Member
                                             </a>
                                         </li>
                                         <li class="dropdown-submenu">
@@ -132,7 +132,7 @@
                                             </a>
                                         </li>
                                           <li class="dropdown-submenu">
-                                            <a href="{{route('medical-aid.become-member')}}">Become A Member
+                                            <a href="#">Become A Member
                                             </a>
                                         </li>
                                         <li class="dropdown-submenu">

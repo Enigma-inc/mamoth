@@ -6,35 +6,42 @@ use Illuminate\Http\Request;
 
 class MedicalPagesController extends Controller
 {
-    public function home(){
+    public function home()
+    {
         return view('medical.home');
     }
-    public function becomeMember(){
+    public function becomeMember($type)
+    {
    
-        return view('medical.become-member.index')->with(['headerImage'=>$this->getRandomHeaderImage()]);
+        if ($type== 'student') {
+             return view('medical.member.student')->with(['headerImage'=>$this->getRandomHeaderImage()]);
+        } else {
+             return view('medical.become-a-member')->with(['headerImage'=>$this->getRandomHeaderImage()]);
+        }
     }
-    public function benefits(){
+
+    public function benefits()
+    {
         return view('medical.benefits.benefits')->with(['headerImage'=>$this->getRandomHeaderImage()]);
     }
 
-    public function findDoctor(){
+    public function findDoctor()
+    {
         return view('medical.find-doctor.doctors')->with(['headerImage'=>$this->getRandomHeaderImage()]);
     }
-    public function lodgeClaim(){
+    public function lodgeClaim()
+    {
         return view('medical.claim.lodge-claim')->with(['headerImage'=>$this->getRandomHeaderImage()]);
     }
 
     private function getRandomHeaderImage()
     {
         $files=glob('medical-aid/images/headers/header-*.jpg');
-        if($files!==false)
-        {
+        if ($files!==false) {
             $fileCount=count($files);
-            return 'header-'.rand(1,$fileCount).'.jpg';
+            return 'header-'.rand(1, $fileCount).'.jpg';
         }
         //if there no files then return this
-    return 'header-1.jpg';
-        
+        return 'header-1.jpg';
     }
-
 }
