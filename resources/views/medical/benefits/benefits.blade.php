@@ -110,7 +110,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="body">
-                                                    <p></p>
+                                                    <p>This covers blood, blood equivalents & products</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -183,6 +183,7 @@
                                                 </div>
                                                 <div class="body">
                                                     <p>
+                                                    This is non-elective, covers dental/oral surgery.
                                                     </p>
                                                 </div>
                                             </div>

@@ -126,6 +126,21 @@
                                 <li class="">
                                     <a href="javascript:;" class="c-link dropdown-toggle">Healthcare Providers 
                                     </a>
+                                           <ul class="dropdown-menu c-menu-type-classic c-pull-left">
+                                        <li class="dropdown-submenu">
+                                            <a href="javascript:;">I Want To...
+                                            </a>
+                                        </li>
+                                          <li class="dropdown-submenu">
+                                            <a href="{{route('medical-aid.become-member')}}">Become A Member
+                                            </a>
+                                        </li>
+                                        <li class="dropdown-submenu">
+                                            <a href="{{route('medical-aid.benefits')}}">Discover Benefits
+                                            </a>
+                                        </li>
+
+                                    </ul>
                                 </li>
                                 <li class="">
                                     <a href="javascript:;" class="c-link dropdown-toggle">Partners
