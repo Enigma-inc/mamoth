@@ -16,8 +16,7 @@
             <div class="row">
                 <div class="col-md-12">
                 <h1>Submitting a claim:</h1>
-                    <p class=" c-font-17">
-                      
+                    <p class=" c-font-17">                      
                             Please make sure that your paper claim has at least the following information:
                             <ul>
                                 <li>Membership number</li>

@@ -73,6 +73,20 @@
             height: 100%;
         }
     }
+    .advert-container {
+        width: 100%;
+        .adverts {
+            display: flex;
+            @include breakpoint(laptop) {
+                width: 80%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .advert-item {
+                flex: 1;
+            }
+        }
+    }
     /* ========================================================================== */
     /* HOME PAGE TABS */
     /* ========================================================================== */
@@ -84,7 +98,7 @@
         text-align: center;
     }
     .options-container {
-        background-image: url('../medical-aid/images/plans-bg.jpg');
+        // background-image: url('../medical-aid/images/plans-bg.jpg');
         .bg-color {
             background-attachment: fixed;
             background-size: cover;
@@ -95,7 +109,7 @@
         .options {
             .elite-option {
                 text-align: center;
-                background: url('medical-aid/images/options/elite.png');
+                //     background: url('medical-aid/images/options/elite.png');
                 img {
                     position: relative;
                     width: 80%;

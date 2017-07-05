@@ -8,7 +8,7 @@ class MedicalPagesController extends Controller
 {
     public function home()
     {
-        return view('medical.home');
+        return view('medical.home.home');
     }
     public function becomeMember($type)
     {
@@ -16,7 +16,7 @@ class MedicalPagesController extends Controller
         if ($type== 'student') {
              return view('medical.member.student')->with(['headerImage'=>$this->getRandomHeaderImage()]);
         } else {
-             return view('medical.become-a-member')->with(['headerImage'=>$this->getRandomHeaderImage()]);
+             return view('medical.member.become-a-member')->with(['headerImage'=>$this->getRandomHeaderImage()]);
         }
     }
 
