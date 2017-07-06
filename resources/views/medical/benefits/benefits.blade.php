@@ -22,7 +22,7 @@
                                 <h4 class="panel-title">
                                     <a class="c-font-bold c-font-19" data-toggle="collapse" data-parent="#accordion-2" href="#day-to-day" aria-expanded="true"
                                         aria-controls="collapseOne">
-                                                    <i class="fa fa-bars"></i> Day-to-day Benefits: </a>
+                                                    <i class="fa fa-bars"></i> Day-to-day Benefits </a>
                                 </h4>
                             </div>
                             <div id="day-to-day" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne-1" aria-expanded="true">
@@ -94,7 +94,7 @@
                                 <h4 class="panel-title">
                                     <a class="c-font-bold c-font-19 collapsed" data-toggle="collapse" data-parent="#accordion-2" href="#collapseTwo-1" aria-expanded="false"
                                         aria-controls="collapseTwo">
-                                                    <i class="fa fa-bars"></i> Major Medical Benefits (Paid at 100% of scheme rates): </a>
+                                                    <i class="fa fa-bars"></i> Major Medical Benefits (Paid at 100% of scheme rates) </a>
                                 </h4>
                             </div>
                             <div id="collapseTwo-1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo-1" aria-expanded="false"
@@ -161,13 +161,13 @@
                                                 <div class="header">
                                                     <img class="icon" src="{{asset('medical-aid/images/icons/martenity.png')}}" alt="benefit">
                                                     <div class="text">
-                                                        <h2>Martenity</h2>
+                                                        <h2>Maternity</h2>
                                                     </div>
                                                 </div>
                                                 <div class="body">
                                                     <p>
                                                         We will be with you through the incredible months of your baby’s development, and you will have access to ante-natal consultations
-                                                        and @2x 2D scans; confinement, delivery and specialist fees will
+                                                        and 2x2D scans; confinement, delivery and specialist fees will
                                                         be covered.
                                                     </p>
                                                 </div>
