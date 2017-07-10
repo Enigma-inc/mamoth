@@ -84,7 +84,7 @@
                         <div class="c-content-step-1 c-opt-1">
                             <div class="c-icon">
                                 <span class="c-hr c-hr-first step-container">
-                                            <span class="step">5</span>
+                                            <span class="step">6</span>
                                 </span>
                             </div>
                             <div class="c-title c-font-20 c-font-bold c-font-uppercase">Serve waiting period</div>

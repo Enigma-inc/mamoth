@@ -35,12 +35,20 @@
     }
     .panel-heading,
     .collapsed {
-        background-color: rgba(12, 83, 161, 1) !important;
+        // border-radius: 60px;
+        background: #f7971e;
+        background: -webkit-linear-gradient(to right, darken(#f7971e, 5%), #f7971e);
+        background: linear-gradient(to right, darken(#f7971e, 5%), #f7971e);
         color: $color-white;
     }
     .panel-title {
+        //  border-radius: 60px;
+        background: #f7971e;
+        background: -webkit-linear-gradient(to right, darken(#f7971e, 5%), #f7971e);
+        background: linear-gradient(to right, darken(#f7971e, 5%), #f7971e);
         a {
             color: $color-white !important;
+            //  border-radius: 60px;
         }
     }
     .section-header {
