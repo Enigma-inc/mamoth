@@ -4,7 +4,6 @@
  @include('medical.home.partials.banner')
 <div class="">
  @include('medical.home.partials.ads')
- @include('medical.home.partials.options')
  
 </div>
 
@@ -23,7 +22,7 @@
                         infinite: true,
                         autoplay: true,
                         autoplaySpeed: 5000,                        
-                        slidesToShow: 2,
+                        slidesToShow: 1,
                         slidesToScroll: 1,
                         responsive: [
                             {
