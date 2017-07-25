@@ -135,17 +135,13 @@
                                             <a href="#">Become A Member
                                             </a>
                                         </li>
-                                        <li class="dropdown-submenu">
-                                            <a href="{{route('medical-aid.benefits')}}">Discover Benefits
-                                            </a>
-                                        </li>
 
                                     </ul>
                                 </li>
-                                <li class="">
+                                {{--  <li class="">
                                     <a href="javascript:;" class="c-link dropdown-toggle">Partners
                                     </a>
-                                </li>
+                                </li>  --}}
                                 <li class="">
                                     <a href="javascript:;" class="c-link dropdown-toggle">Member Log-In
                                     </a>

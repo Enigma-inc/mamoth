@@ -88,7 +88,8 @@
                                 </span>
                             </div>
                             <div class="c-title c-font-20 c-font-bold c-font-uppercase">Serve waiting period</div>
-                            <div class="c-description c-font-17 text-justify"> There is a general waiting period of 3 months for a member who has never belonged to any medical aid within the past two years. <br>
+                            <div class="c-description c-font-17 text-justify"> 
+                            A member who has never belonged to any medical aid, or has been inactive from any medical aid cover for three (3) months and above, is subjected to general waiting period of 3 months after joining, and therefore not covered if need to make a medical claim arises.
                             <h3 class="text-underline">Special cases:</h3>
                             <ul class="c-content-list-1 c-theme c-separator-dot">
                                 <li>Pregnancy – 9 months for a member who is already pregnant,</li>

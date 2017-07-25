@@ -6,7 +6,9 @@
  @include('medical.home.partials.ads')
  
 </div>
-
+<div>
+   @include('medical.home.partials.partners')
+</div>
 
 </div>
 @endsection
