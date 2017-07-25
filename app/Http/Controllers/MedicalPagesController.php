@@ -42,7 +42,7 @@ class MedicalPagesController extends Controller
         $files=glob('medical-aid/images/headers/header-*.jpg');
         if ($files!==false) {
             $fileCount=count($files);
-            return 'header-'.rand(1, $fileCount).'.jpg';
+            return 'medical-aid/images/headers/header-'.rand(1, $fileCount).'.jpg';
         }
         //if there no files then return this
         return 'header-1.jpg';

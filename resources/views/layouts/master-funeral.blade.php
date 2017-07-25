@@ -68,19 +68,23 @@
                         <nav class="c-mega-menu c-pull-right c-mega-menu-dark c-mega-menu-dark-mobile c-fonts-uppercase c-fonts-bold">
                             <ul class="nav navbar-nav c-theme-nav">
                                 <li class="c-active">
-                                    <a href="javascript:;" class="c-link dropdown-toggle">Home
+                                    <a href="{{route('funeral.home')}}" class="c-link dropdown-toggle">Home
                                     </a>
                                 </li>
                                 <li class="c-active">
-                                    <a href="javascript:;" class="c-link dropdown-toggle">About Mamothe
+                                    <a href="{{route('funeral.about')}}" class="c-link dropdown-toggle">About US
                                     </a>
                                 </li>
                                 <li class="c-active">
-                                    <a href="javascript:;" class="c-link dropdown-toggle">Find The Right Plan for You
+                                    <a href="{{route('funeral.plans')}}" class="c-link dropdown-toggle">Plans
                                     </a>
                                 </li>
                                 <li class="c-active">
-                                    <a href="javascript:;" class="c-link dropdown-toggle">Lodge A Claim
+                                    <a href="{{route('funeral.benefits')}}" class="c-link dropdown-toggle">Benefits
+                                    </a>
+                                </li>
+                                <li class="c-active">
+                                    <a href="{{route('funeral.claim')}}" class="c-link dropdown-toggle">Claim
                                     </a>
                                 </li>
                                 <li class="c-active">
@@ -102,22 +106,9 @@
 
 
         </div>
-<div class="c-layout-page">
-<section class="c-layout-revo-slider c-layout-revo-slider-13 margin-0" dir="ltr">
-    <div class="slide-container">
-        <div class="slide">
-       <div class="slide-text-container">
-                <slide class="slide-text">
-                    <div class="c-font-bold title-text"><img width="200px" src="{{asset('funeral/images/mamothe-white.png')}}" alt="Mamothe"></div>
-                    <div class="desc-text">Funeral Services </div>
-                </slide>
-                <div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-    </div>
+<div class="c-layout-page funeral-page">
+<section class="c-layout-revo-slider c-layout-revo-slider-13 margin-0 " dir="ltr">
+  @yield('content')
 </section>
 
 </div>
@@ -167,10 +158,6 @@
         <script src="{{asset('medical-aid/assets/plugins/fancybox/jquery.fancybox.pack.js')}}" type="text/javascript"></script>
         <script src="{{asset('medical-aid/assets/plugins/smooth-scroll/jquery.smooth-scroll.js')}}" type="text/javascript"></script>
         <script src="{{asset('medical-aid/assets/plugins/slider-for-bootstrap/js/bootstrap-slider.js')}}" type="text/javascript"></script>
-        <!-- END: LAYOUT PLUGINS -->
-        <!-- BEGIN: THEME SCRIPTS -->
-        <script src="{{asset('medical-aid/assets/base/js/components.js')}}" type="text/javascript"></script>
-        <scrmedical-aid/ipt src="{{asset('assets/base/js/components-shop.js')}}" type="text/javascript"></script>
         <script src="{{asset('medical-aid/assets/base/js/app.js')}}" type="text/javascript"></script>
         <script>
             $(document).ready(function()

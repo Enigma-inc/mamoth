@@ -1,4 +1,5 @@
-@extends('layouts.master-medical-aid') @section('content')
+@extends('layouts.master-medical-aid') 
+@section('content')
 <div class="c-layout-page">
     @include('medical.partials.inner-page-banner')
     <div class="">

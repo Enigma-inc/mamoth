@@ -19,4 +19,8 @@ Route::group(['prefix' => 'medical'], function () {
 
 Route::group(['prefix' => 'funeral'], function () {
    Route::get('/home', 'FuneralPagesController@home')->name('funeral.home');
+   Route::get('/about','FuneralPagesController@about')->name('funeral.about');
+   Route::get('/plans','FuneralPagesController@plans')->name('funeral.plans');
+   Route::get('/benefits','FuneralPagesController@benefits')->name('funeral.benefits');
+   Route::get('/claim','FuneralPagesController@claim')->name('funeral.claim');
 });
