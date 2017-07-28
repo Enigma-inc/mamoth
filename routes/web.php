@@ -16,6 +16,7 @@ Route::group(['prefix' => 'medical'], function () {
     Route::get('/benefits', 'MedicalPagesController@benefits')->name('medical-aid.benefits');
     Route::get('/find-doctor', 'MedicalPagesController@findDoctor')->name('medical-aid.find-doctor');
     Route::get('/lodge-claim', 'MedicalPagesController@lodgeClaim')->name('medical-aid.lodge-claim');
+    Route::get('/contact-us', 'MedicalPagesController@contact')->name('medical-aid.contact');
 });
 
 Route::group(['prefix' => 'funeral'], function () {
