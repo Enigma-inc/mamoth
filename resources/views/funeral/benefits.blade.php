@@ -1,7 +1,7 @@
 @extends('layouts.master-funeral')
 @section('content')    
   @include('medical.partials.inner-page-banner')
-    <div class="c-content-box c-size-md c-bg-white find-doctor-page">
+    <div class="c-content-box c-size-md c-bg-white funeral-page">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -13,73 +13,199 @@
                 </div>
             </div>
             <div class="row">
-                     <div class="col-xs-12">
-                            <div class="col-sm-6">
-                            <ul class="c-content-list-1 c-theme">
-                                        <li><strong>Casket</strong> <br>
-                                        <p class="margin-left-50">We provide a wide range of coffins and caskets, from the most simple to the truly elaborate, for you to choose from.</p>
-                                        </li>
-
-                                        <li><strong>Fresh Flowers</strong> <br>
-                                            <p class="margin-left-50">
-                                                Flowers serve as a tribute at the service of the deceased. They add decoration and life to a sombre event.
+                            <div class=" col-xs-12 col-sm-6">
+                                    <div class="funeral-benefits-container">
+                                    <div class="image">
+                                        <img src="{{asset('funeral/images/benefits/casket.png')}}" alt="Funeral Benefit">
+                                    </div>
+                                    <div class="text">
+                                        <div class="header">
+                                                Casket
+                                            </div>
+                                        <p class="body">We provide a wide range of coffins and caskets, from the most simple to the truly elaborate, for you to choose from.</p>
+                                    </div>
+                                    </div>
+                           </div>
+                            <div class=" col-xs-12 col-sm-6">
+                                    <div class="funeral-benefits-container">
+                                    <div class="image">
+                                        <img src="{{asset('funeral/images/benefits/transport.png')}}" alt="Funeral Benefit">
+                                    </div>
+                                    <div class="text">
+                                        <div class="header">
+                                                Transport (Hearse + Family Car) 
+                                            </div>
+                                        <p class="body">
+                                       We provide transport from home or church to the cemetery.
                                         </p>
-                                        </li>
-                                        <li><strong>Transport (Hearse + Family Car)</strong> <br>
-                                            <p class="margin-left-50">
-                                                We provide transport from home or church to the cemetery.
+                                    </div>
+                                    </div>
+                           </div>
+                            <div class=" col-xs-12 col-sm-6">
+                                    <div class="funeral-benefits-container">
+                                    <div class="image">
+                                        <img src="{{asset('funeral/images/benefits/flowers.png')}}" alt="Funeral Benefit">
+                                    </div>
+                                    <div class="text">
+                                        <div class="header">
+                                               Fresh Flowers 
+                                            </div>
+                                        <p class="body">
+                                          Flowers serve as a tribute at the service of the deceased. They add decoration and life to a sombre event.
                                         </p>
-                                        </li>
-                                        <li><strong>Programs</strong> <br>
-                                            <p class="margin-left-50">
-                                                We prepare and print programs to help the family of the deceased in guiding people through the ceremony and honouring the deceased.
+                                    </div>
+                                    </div>
+                           </div>
+                            <div class=" col-xs-12 col-sm-6">
+                                    <div class="funeral-benefits-container">
+                                    <div class="image">
+                                        <img src="{{asset('funeral/images/benefits/program.png')}}" alt="Funeral Benefit">
+                                    </div>
+                                    <div class="text">
+                                        <div class="header">
+                                               Programs
+                                            </div>
+                                        <p class="body">
+                                         We prepare and print programs to help the family of the deceased in guiding people through the ceremony and honouring the deceased.
                                         </p>
-                                        </li>
-                             </ul>
-                            
-                            </div>
-                            <div class="col-sm-6">
-                            <ul class="c-content-list-1 c-theme">
-                                        <li><strong>Mortuary</strong> <br>
-                                        <p class="margin-left-50">
-                                        </li>
-
-                                        <li><strong>PA system</strong> <br>
-                                            <p class="margin-left-50">
+                                    </div>
+                                    </div>
+                           </div>
+                            <div class=" col-xs-12 col-sm-6">
+                                    <div class="funeral-benefits-container">
+                                    <div class="image">
+                                        <img src="{{asset('funeral/images/benefits/mortuary.png')}}" alt="Funeral Benefit">
+                                    </div>
+                                    <div class="text">
+                                        <div class="header">
+                                               Mortuary 
+                                            </div>
+                                        <p class="body">
+                                         
                                         </p>
-                                        </li>
-                                        <li><strong>Branded Water</strong> <br>
-                                            <p class="margin-left-50">
+                                    </div>
+                                    </div>
+                           </div>
+                            <div class=" col-xs-12 col-sm-6">
+                                    <div class="funeral-benefits-container">
+                                    <div class="image">
+                                        <img src="{{asset('funeral/images/benefits/pa.png')}}" alt="Funeral Benefit">
+                                    </div>
+                                    <div class="text">
+                                        <div class="header">
+                                               PA System 
+                                            </div>
+                                        <p class="body">
+                                         
                                         </p>
-                                        </li>
-                                        <li><strong>Counselling</strong> <br>
-                                            <p class="margin-left-50">
+                                    </div>
+                                    </div>
+                           </div>
+                            <div class=" col-xs-12 col-sm-6">
+                                    <div class="funeral-benefits-container">
+                                    <div class="image">
+                                        <img src="{{asset('funeral/images/benefits/water.png')}}" alt="Funeral Benefit">
+                                    </div>
+                                    <div class="text">
+                                        <div class="header">
+                                               Branded Water 
+                                            </div>
+                                        <p class="body">
+                                         
                                         </p>
-                                        </li>
-                                        <li><strong>Airtime</strong> <br>
-                                            <p class="margin-left-50">
+                                    </div>
+                                    </div>
+                           </div>
+                            <div class=" col-xs-12 col-sm-6">
+                                    <div class="funeral-benefits-container">
+                                    <div class="image">
+                                        <img src="{{asset('funeral/images/benefits/Counseling.png')}}" alt="Funeral Benefit">
+                                    </div>
+                                    <div class="text">
+                                        <div class="header">
+                                               Counselling 
+                                            </div>
+                                        <p class="body">
+                                         
                                         </p>
-                                        </li>
-                                        <li><strong>Tent</strong> <br>
-                                            <p class="margin-left-50">
+                                    </div>
+                                    </div>
+                           </div>
+                            <div class=" col-xs-12 col-sm-6">
+                                    <div class="funeral-benefits-container">
+                                    <div class="image">
+                                        <img src="{{asset('funeral/images/benefits/airtime.png')}}" alt="Funeral Benefit">
+                                    </div>
+                                    <div class="text">
+                                        <div class="header">
+                                               Airtime 
+                                            </div>
+                                        <p class="body">
+                                         
                                         </p>
-                                        </li>
-                                        <li><strong>Chairs</strong> <br>
-                                            <p class="margin-left-50">
+                                    </div>
+                                    </div>
+                           </div>
+                            <div class=" col-xs-12 col-sm-6">
+                                    <div class="funeral-benefits-container">
+                                    <div class="image">
+                                        <img src="{{asset('funeral/images/benefits/tent.png')}}" alt="Funeral Benefit">
+                                    </div>
+                                    <div class="text">
+                                        <div class="header">
+                                               Tent  
+                                            </div>
+                                        <p class="body">
+                                         
                                         </p>
-                                        </li>
-                                        <li><strong>Grocery</strong> <br>
-                                            <p class="margin-left-50">
+                                    </div>
+                                    </div>
+                           </div>
+                            <div class=" col-xs-12 col-sm-6">
+                                    <div class="funeral-benefits-container">
+                                    <div class="image">
+                                        <img src="{{asset('funeral/images/benefits/chair.png')}}" alt="Funeral Benefit">
+                                    </div>
+                                    <div class="text">
+                                        <div class="header">
+                                               Chairs   
+                                            </div>
+                                        <p class="body">
+                                         
                                         </p>
-                                        </li>
-                                        <li><strong>Repatriation </strong> <br>
-                                            <p class="margin-left-50">
+                                    </div>
+                                    </div>
+                           </div>
+                            <div class=" col-xs-12 col-sm-6">
+                                    <div class="funeral-benefits-container">
+                                    <div class="image">
+                                        <img src="{{asset('funeral/images/benefits/grocery.png')}}" alt="Funeral Benefit">
+                                    </div>
+                                    <div class="text">
+                                        <div class="header">
+                                               Grocery    
+                                            </div>
+                                        <p class="body">
+                                         
                                         </p>
-                                        </li>
-                             </ul>
-                            
-                            </div>
-                    </div>
+                                    </div>
+                                    </div>
+                           </div>
+                            {{--  <div class=" col-xs-12 col-sm-6">
+                                    <div class="funeral-benefits-container">
+                                    <div class="image">
+                                        <img src="{{asset('funeral/images/benefits/repatriation.png')}}" alt="Funeral Benefit">
+                                    </div>
+                                    <div class="text">
+                                        <div class="header">
+                                               Repatriation    
+                                            </div>
+                                        <p class="body">
+                                         
+                                        </p>
+                                    </div>
+                                    </div>
+                           </div>  --}}
             </div>
         </div>
     </div>

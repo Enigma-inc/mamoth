@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Momoth</title>
+    <title>Mamoth</title>
 
     <!-- CSS Links -->
     <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
@@ -37,7 +37,7 @@
 
                     <div class="conpanies-links">
                         <a href="{{route('medical-aid.home')}}" class="btn btn-xs " type="button"><span>Mamoth Medical Aid Services</span></a>
-                        <a  href="{{route('funeral.home')}}"  class="btn btn-xs" type="button"><span>Mamothe Funeral Services</span></a>
+                        <a  href="{{route('funeral.home')}}"  class="btn btn-xs" type="button"><span>Mamothe Funeral Home</span></a>
 
                     </div>
                 </div>

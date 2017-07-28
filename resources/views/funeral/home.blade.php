@@ -5,7 +5,7 @@
        <div class="slide-text-container">
                 <slide class="slide-text">
                     <div class="c-font-bold title-text"><img width="200px" src="{{asset('funeral/images/mamothe-white.png')}}" alt="Mamothe"></div>
-                    <div class="desc-text">Funeral Services </div>
+                    <div class="desc-text">Funeral Home </div>
                 </slide>
                 <div>
                 </div>

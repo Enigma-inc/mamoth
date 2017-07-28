@@ -67,11 +67,14 @@
                                     </h3>
                                     <div class="c-line-left hide"></div>
                                 </div>
-                                <p class="c-text c-font-16 c-font-regular">Tolerare unus ducunt ad brevis buxum. Est alter buxum, cesaris. Eheu, lura! Racanas crescere in emeritis oenipons! Ubi est rusticus repressor? Lixa grandis clabulare est. Eposs tolerare.</p>
+                                <p class="c-text c-font-16 c-font-regular">
+                               Mamoth Health Plan as a medical aid is one of the products of Mamoth Employee Benefits. Having been locally established in 2003, Mamoth Health Plan has gained vast, rich and unique experience in understanding the healthcare needs of Basotho. Its locality, adaptation and international exposure have risen to strengthen the service we provide to our members.
+                               <a href="#"> more...</a>
+                                </p>
                             </div>
                             <div class="col-md-5">
                                 <div class="c-content-title-1 c-title-md">
-                                    <h3 class="c-font-uppercase c-font-bold">Subscribe to Newsletter</h3>
+                                    <h3 class="c-font-uppercase c-font-bold">Subscribe to our News & Events</h3>
                                     <div class="c-line-left hide"></div>
                                 </div>
                                 <div class="c-line-left hide"></div>

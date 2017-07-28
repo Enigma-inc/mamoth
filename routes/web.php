@@ -10,6 +10,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::group(['prefix' => 'medical'], function () {
     Route::get('/home', 'MedicalPagesController@home')->name('medical-aid.home');
+    Route::get('/about', 'MedicalPagesController@about')->name('medical-aid.about');
     Route::get('/options', 'MedicalPagesController@options')->name('medical-aid.options');
     Route::get('/become-member/{type}', 'MedicalPagesController@becomeMember')->name('medical-aid.become-member');
     Route::get('/benefits', 'MedicalPagesController@benefits')->name('medical-aid.benefits');

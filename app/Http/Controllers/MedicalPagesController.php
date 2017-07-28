@@ -10,6 +10,9 @@ class MedicalPagesController extends Controller
     {
         return view('medical.home.home');
     }
+    public function about(){
+        return view('medical.about.about')->with(['headerImage'=>$this->getRandomHeaderImage()]);
+    }
     public function options(){
         return view('medical.options.plan-options')->with(['headerImage'=>$this->getRandomHeaderImage()]);
     }
