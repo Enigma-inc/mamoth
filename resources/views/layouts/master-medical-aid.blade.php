@@ -69,7 +69,7 @@
                                 </div>
                                 <p class="c-text c-font-16 c-font-regular">
                                Mamoth Health Plan as a medical aid is one of the products of Mamoth Employee Benefits. Having been locally established in 2003, Mamoth Health Plan has gained vast, rich and unique experience in understanding the healthcare needs of Basotho. Its locality, adaptation and international exposure have risen to strengthen the service we provide to our members.
-                               <a href="#"> more...</a>
+                               <a href="{{route('medical-aid.about')}}"> more...</a>
                                 </p>
                             </div>
                             <div class="col-md-5">

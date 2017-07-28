@@ -127,6 +127,7 @@
 
                                     </ul>
                                 </li>
+                           
                                 <li class="">
                                     <a href="javascript:;" class="c-link dropdown-toggle">Healthcare Providers 
                                     </a>
@@ -146,6 +147,10 @@
                                     <a href="javascript:;" class="c-link dropdown-toggle">Partners
                                     </a>
                                 </li>  --}}
+                                <li class="c-active">
+                                    <a href="{{route('medical-aid.contact')}}" class="c-link dropdown-toggle">Contatc Us
+                                    </a>
+                                </li>
                                 <li class="">
                                     <a href="javascript:;" class="c-link dropdown-toggle">Member Log-In
                                     </a>

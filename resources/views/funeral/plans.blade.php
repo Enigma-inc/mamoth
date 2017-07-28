@@ -51,7 +51,7 @@
                                 
                             </ul>
                             </div>
-                            <p class="col-xs-12"><a href="#">Download application form here</a>, complete and submit it signed, together with the required documents.</p>
+                            <p class="col-xs-12"><a href="{{route('download',['file'=>'funeral-application-form.pdf'])}}">Download application form here</a>, complete and submit it signed, together with the required documents.</p>
                     </div>
             </div>
         </div>

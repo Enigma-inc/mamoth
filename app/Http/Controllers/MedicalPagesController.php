@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Facades\Response;
 
 class MedicalPagesController extends Controller
 {
@@ -12,6 +14,9 @@ class MedicalPagesController extends Controller
     }
     public function about(){
         return view('medical.about.about')->with(['headerImage'=>$this->getRandomHeaderImage()]);
+    }
+    public function contact(){
+        return view('medical.contact.contact-us')->with(['headerImage'=>$this->getRandomHeaderImage()]);
     }
     public function options(){
         return view('medical.options.plan-options')->with(['headerImage'=>$this->getRandomHeaderImage()]);
@@ -49,5 +54,21 @@ class MedicalPagesController extends Controller
         }
         //if there no files then return this
         return 'header-1.jpg';
+    }
+    
+    public function download($fileName)
+    {
+        $filePath = public_path() . "/docs/" . $fileName;
+       // dd(file_exists($filePath));
+        if( file_exists($filePath)){
+            $headers = array(
+                'Content-Type: application/pdf',
+            );
+            return \Response::download($filePath, $fileName,$headers);
+        }
+        else{
+            return back();
+        }
+
     }
 }

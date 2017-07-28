@@ -38,4 +38,6 @@ class FuneralPagesController extends Controller
         //if there no files then return this
         return 'header-1.jpg';
     }
+
+
 }
