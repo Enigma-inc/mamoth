@@ -119,7 +119,7 @@
                             <div class=" col-xs-12 col-sm-6">
                                     <div class="funeral-benefits-container">
                                     <div class="image">
-                                        <img src="{{asset('funeral/images/benefits/Counseling.png')}}" alt="Funeral Benefit">
+                                        <img src="{{asset('funeral/images/benefits/counseling.png')}}" alt="Funeral Benefit">
                                     </div>
                                     <div class="text">
                                         <div class="header">
