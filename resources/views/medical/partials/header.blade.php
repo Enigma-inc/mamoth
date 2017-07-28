@@ -22,6 +22,10 @@
                                     <a href="{{route('medical-aid.home')}}" class="c-link dropdown-toggle">Home
                                     </a>
                                 </li>
+                             <li class="c-active">
+                                    <a href="{{route('medical-aid.about')}}" class="c-link dropdown-toggle">About Us
+                                    </a>
+                                </li>
                               <li class="c-menu-type-classic">
                                     <a href="javascript:;" class="c-link dropdown-toggle">Individuals
                                         <span class="c-arrow c-toggler"></span>
