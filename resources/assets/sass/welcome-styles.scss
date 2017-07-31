@@ -99,3 +99,22 @@
     width: auto;
     right: 0;
 }
+
+.welcome-message {
+    position: absolute;
+    width: 100%;
+    top: 80%;
+    display: flex;
+    text-align: center;
+    h2 {
+        margin: auto;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #fff;
+        .dot {
+            width: 10px;
+            height: 10px;
+            background: #fff;
+        }
+    }
+}

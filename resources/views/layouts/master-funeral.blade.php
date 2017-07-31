@@ -52,7 +52,7 @@
                 <div class="container">
                     <div class="c-navbar-wrapper clearfix">
                         <div class="c-brand c-pull-left">
-                            <a href="#" class="c-logo">
+                            <a href="{{url('/')}}" class="c-logo">
                                 <img src="{{asset('funeral/images/mamothe-logo-landscape.png')}}"  alt="Mamoth" class="c-desktop-logo">
                                 <img src="{{asset('funeral/images/mamothe-logo-landscape.png')}}"  alt="Mamoth" class="c-desktop-logo-inverse">
                                 <img src="{{asset('funeral/images/mamothe-logo-landscape.png')}}"  alt="Mamoth" class="c-mobile-logo"> </a>

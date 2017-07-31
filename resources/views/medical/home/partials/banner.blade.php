@@ -10,7 +10,7 @@
                     <div class="banner-links">
                         <a href="{{route('medical-aid.options')}}" type="button" class="btn btn-danger c-btn-circle">
                             <i class="fa fa-medkit"></i> Find the perfect medical aid Plan</a>
-                        <a href="#" type="button" class="btn btn-danger c-btn-circle">
+                        <a href="{{route('medical-aid.become-member',['type'=>'individuals'])}}" type="button" class="btn btn-danger c-btn-circle">
                             <i class="fa fa-check "></i> Join The Mamoth Tribe</a>
                     </div>
                 </div>

@@ -3,7 +3,7 @@
                 <div class="">
                     <div class="c-navbar-wrapper clearfix">
                         <div class="c-brand c-pull-left">
-                            <a href="{{route('medical-aid.home')}}" class="c-logo">
+                            <a href="{{url('/')}}" class="c-logo">
                                 <img src="{{asset('images/logo-landscape.png')}}"  alt="Mamoth" class="c-desktop-logo">
                                 <img src="{{asset('images/logo-landscape.png')}}"  alt="Mamoth" class="c-desktop-logo-inverse">
                                 <img src="{{asset('images/logo-landscape.png')}}"  alt="Mamoth" class="c-mobile-logo"> </a>
@@ -137,7 +137,7 @@
                                             </a>
                                         </li>
                                           <li class="dropdown-submenu">
-                                            <a href="#">Become A Member
+                                            <a href="{{route('medical-aid.become-member',['type'=>'healthcare-providers'])}}">Become A Member
                                             </a>
                                         </li>
 

@@ -74,11 +74,11 @@
         }
     }
     .advert-container {
-        width: 100%;
+        //  width: 100%;
         .adverts {
             display: flex;
             @include breakpoint(laptop) {
-                width: 80%;
+                width: 100%;
                 margin-left: auto;
                 margin-right: auto;
             }
@@ -93,7 +93,7 @@
     .benefits {
         img {
             position: relative;
-            width: 80%;
+            width: 100%;
         }
         text-align: center;
     }

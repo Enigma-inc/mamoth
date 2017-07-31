@@ -1,4 +1,4 @@
-@extends('layouts.master-funeral')
+@extends('layouts.master-medical-aid') 
 @section('content')    
   @include('medical.partials.inner-page-banner')
     <div class="c-content-box c-size-md c-bg-white find-doctor-page">
@@ -15,8 +15,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <p class=" c-font-17">
-                      Mamoth Health Plan as a medical aid is one of the products of Mamoth Employee Benefits. Having been locally established in 2003, Mamoth Health Plan has gained vast, rich and unique experience in understanding the healthcare needs of Basotho. Its locality, 
-                      adaptation and international exposure have risen to strengthen the service we provide to our members.
+                      Mamoth Health Plan is a medical aid product of Mamoth Employee Benefits. Established in 2003, Mamoth Health Plan is the leading Medical Aid Service Provider in Lesotho that offers health care services locally and regionally. 
                     </p>
                    
                 </div>

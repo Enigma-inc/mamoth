@@ -3,6 +3,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('download/{file}','MedicalPagesController@download')->name('download');
 
 Auth::routes();
 
@@ -27,4 +28,3 @@ Route::group(['prefix' => 'funeral'], function () {
    Route::get('/claim','FuneralPagesController@claim')->name('funeral.claim');
 });
 
-Route::get('download/{file}','MedicalPagesController@download')->name('download');

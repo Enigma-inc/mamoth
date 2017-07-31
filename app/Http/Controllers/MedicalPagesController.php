@@ -26,7 +26,11 @@ class MedicalPagesController extends Controller
    
         if ($type== 'student') {
              return view('medical.member.student')->with(['headerImage'=>$this->getRandomHeaderImage()]);
-        } else {
+        } 
+        else if ($type=='healthcare-providers') {
+             return view('medical.member.healthcare-providers')->with(['headerImage'=>$this->getRandomHeaderImage()]);
+        } 
+        else {
              return view('medical.member.become-a-member')->with(['headerImage'=>$this->getRandomHeaderImage()]);
         }
     }

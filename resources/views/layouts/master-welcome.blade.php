@@ -52,8 +52,9 @@
     <footer class="footer">
         <div>
             <ul class="footer-icons">
-                <li><a href="#"><i class="fa fa-facebook footer-ic-color" aria-hidden="true"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter footer-ic-color" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.facebook.com/mamothlife" target="_tagert"><i class="fa fa-facebook footer-ic-color" aria-hidden="true"></i></a></li>
+                <li><a href="https://twitter.com/mamothlife" target="_tagert"><i class="fa fa-twitter footer-ic-color" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.youtube.com/channel/UC_FjPv2rm1iER7BpDTlBvaA" target="_tagert"><i class="fa fa-youtube footer-ic-color" aria-hidden="true"></i></a></li>
 
             </ul>
         </div>

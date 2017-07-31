@@ -8,7 +8,7 @@
 @section('scripts')
       <script type="text/javascript">
         $(window).on('load', function() {
-            $("#loading").fadeOut(500);
+            $("#loading").fadeOut(1000);
         });
     </script>
 @endsection

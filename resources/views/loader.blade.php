@@ -13,7 +13,12 @@
             <div class="sk-circle10 sk-child"></div>
             <div class="sk-circle11 sk-child"></div>
             <div class="sk-circle12 sk-child"></div>
+            
         </div>
-
+        <div class="welcome-message">
+        <h2>Welcome <span>,</span> Re A U Amohela</h2>
+        
+        </div>
+        
     </div>
 @stop
