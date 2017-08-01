@@ -19,7 +19,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="">
+                    <div class="wow animate fadeInLeft" style="visibility: visible; animation-name: fadeInLeft; opacity: 1;">
                         <div class="col-xs-12">
                             <ul class="c-content-list-1 c-theme">
                                 <li>A certified copy of an official government identity document;</li>
