@@ -19,11 +19,17 @@ class FuneralPagesController extends Controller
     public function plans(){
         return view('funeral.plans')->with(['headerImage'=>$this->getRandomHeaderImage()]);
     }
+    public function becomeMember(){
+        return view('funeral.become-member')->with(['headerImage'=>$this->getRandomHeaderImage()]);
+    }
     public function benefits(){
         return view('funeral.benefits')->with(['headerImage'=>$this->getRandomHeaderImage()]);
     }
     public function claim(){
         return view('funeral.claim')->with(['headerImage'=>$this->getRandomHeaderImage()]);
+    }
+    public function contact(){
+        return view('funeral.contact')->with(['headerImage'=>$this->getRandomHeaderImage()]);
     }
 
 

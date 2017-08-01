@@ -19,7 +19,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="wow animate fadeInLeft" style="visibility: visible; animation-name: fadeInLeft; opacity: 1;">
+                    <div class="">
                         <div class="col-xs-12">
                             <ul class="c-content-list-1 c-theme">
                                 <li>A certified copy of an official government identity document;</li>
@@ -30,6 +30,7 @@
                             </ul>
                         </div>
                     </div>
+                    <p>To find a Doctor or Healthcare Provider click <a href="{{route('medical-aid.find-doctor')}}">HERE </a></p> 
                 </div>
                 <div class="row">
                  @include('medical.home.partials.partners')

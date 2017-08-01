@@ -66,7 +66,7 @@
                                                Programs
                                             </div>
                                         <p class="body">
-                                         We prepare and print programs to help the family of the deceased in guiding people through the ceremony and honouring the deceased.
+                                        You will receive programs which will honor the life of the deceased.
                                         </p>
                                     </div>
                                     </div>
@@ -81,7 +81,7 @@
                                                Mortuary 
                                             </div>
                                         <p class="body">
-                                         
+                                         You are guaranteed to receive the most reliable and comforting services; through use of the most innovative technology.
                                         </p>
                                     </div>
                                     </div>
@@ -96,7 +96,7 @@
                                                PA System 
                                             </div>
                                         <p class="body">
-                                         
+                                         You will receive a high quality PA system and microphones.
                                         </p>
                                     </div>
                                     </div>
@@ -111,7 +111,7 @@
                                                Branded Water 
                                             </div>
                                         <p class="body">
-                                         
+                                         You and your family will receive Mamoth branded bottled water.  
                                         </p>
                                     </div>
                                     </div>
@@ -126,7 +126,7 @@
                                                Counselling 
                                             </div>
                                         <p class="body">
-                                         
+                                         In your time of grief, you will receive counselling from our well trained and compassionate team to help you come to terms with the passing of your loved one.
                                         </p>
                                     </div>
                                     </div>
@@ -141,7 +141,7 @@
                                                Airtime 
                                             </div>
                                         <p class="body">
-                                         
+                                         You will receive airtime worth up to M500.00, to assist you with planning the funeral service.
                                         </p>
                                     </div>
                                     </div>
@@ -156,7 +156,7 @@
                                                Tent  
                                             </div>
                                         <p class="body">
-                                         
+                                         To ensure a dignified send off of your loved one, you will receive a tent and gazebos.
                                         </p>
                                     </div>
                                     </div>
@@ -171,7 +171,7 @@
                                                Chairs   
                                             </div>
                                         <p class="body">
-                                         
+                                         You will receive the most comfortable chairs for your family and guests.
                                         </p>
                                     </div>
                                     </div>
@@ -186,7 +186,7 @@
                                                Grocery    
                                             </div>
                                         <p class="body">
-                                         
+                                         You will receive up to M1500.00 to cover groceries.
                                         </p>
                                     </div>
                                     </div>

@@ -148,7 +148,7 @@
                                     </a>
                                 </li>  --}}
                                 <li class="c-active">
-                                    <a href="{{route('medical-aid.contact')}}" class="c-link dropdown-toggle">Contatc Us
+                                    <a href="{{route('medical-aid.contact')}}" class="c-link dropdown-toggle">Contact Us
                                     </a>
                                 </li>
                                 <li class="">

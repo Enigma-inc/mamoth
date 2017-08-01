@@ -80,6 +80,10 @@
                                     </a>
                                 </li>
                                 <li class="c-active">
+                                    <a href="{{route('funeral.become-member')}}" class="c-link dropdown-toggle">Become A Member
+                                    </a>
+                                </li>
+                                <li class="c-active">
                                     <a href="{{route('funeral.benefits')}}" class="c-link dropdown-toggle">Benefits
                                     </a>
                                 </li>
@@ -92,7 +96,7 @@
                                     </a>
                                 </li>
                                 <li class="c-active">
-                                    <a href="javascript:;" class="c-link dropdown-toggle">Contact Us
+                                    <a href="{{route('funeral.contact')}}" class="c-link dropdown-toggle">Contact Us
                                     </a>
                                 </li>
                                 

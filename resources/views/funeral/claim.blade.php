@@ -36,8 +36,8 @@
                                         <li>Certified copy of  ID or Passport<br>
                                         <span class="margin-left-40">This is to show who you are and your relationship to the deceased</span>
                                         </li>
-                                        <li>Letter from school if the child is studying </li>
-                                        <li>Children are covered as dependents until the age of 21 unless they are still studying, if so they are then covered until age 26.</li>
+                                        <li>Letter from school if the child is studying <br>
+                                         <span class="margin-left-40">Children are covered as dependents until the age of 21 unless they are still studying, if so they are then covered until age 26.</span></li>
                                         <li>Premium records <br>
                                             <span class="margin-left-40">Proof of payments to show that there are no outstanding premiums. </span>
                                         

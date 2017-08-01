@@ -21,7 +21,7 @@
                         <div class="panel">
                             <div class="panel-heading" role="tab" id="headingOne-1">
                                 <h4 class="panel-title">
-                                    <a class="c-font-bold c-font-19" data-toggle="collapse" data-parent="#accordion-2" href="#day-to-day" aria-expanded="true"
+                                    <a class="c-font-bold c-font-19 padding-top-10 padding-bottom-10" data-toggle="collapse" data-parent="#accordion-2" href="#day-to-day" aria-expanded="true"
                                         aria-controls="collapseOne">
                                                     <i class="fa fa-bars"></i> Day-to-day Benefits </a>
                                 </h4>
@@ -93,7 +93,7 @@
                         <div class="panel">
                             <div class="panel-heading" role="tab" id="headingTwo-1">
                                 <h4 class="panel-title">
-                                    <a class="c-font-bold c-font-19 collapsed" data-toggle="collapse" data-parent="#accordion-2" href="#collapseTwo-1" aria-expanded="false"
+                                    <a class="c-font-bold c-font-19 collapsed padding-top-10 padding-bottom-10" data-toggle="collapse" data-parent="#accordion-2" href="#collapseTwo-1" aria-expanded="false"
                                         aria-controls="collapseTwo">
                                                     <i class="fa fa-bars"></i> Major Medical Benefits (Paid at 100% of scheme rates) </a>
                                 </h4>
@@ -194,7 +194,7 @@
                                                 <div class="header">
                                                     <img class="icon" src="{{asset('medical-aid/images/icons/mental.png')}}" alt="benefit">
                                                     <div class="text">
-                                                        <h2>Mental Health (In and Out of Hospital)</h2>
+                                                        <h2>Mental Health <small style="color:#fff;">(In and Out of Hospital)</small></h2>
                                                     </div>
                                                 </div>
                                                 <div class="body">

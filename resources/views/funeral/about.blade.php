@@ -8,14 +8,15 @@
                     <div class="c-content-title-1 c-margin-b-20">
                         <h3 class="c-center c-font-uppercase c-font-bold"> About Mamothe</h3>
                         <div class="c-line-center"></div>
-                        <p></p>
+                        <p> </p>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-12">
                     <p class=" c-font-17">
-                       We offer dignified funeral services in Lesotho and beyond. 
+                       Mamothe Funeral Home is the premium funeral service provider in the Kingdom of Lesotho. Using the most advanced technology, we offer highly dignified mortuary services,
+                        broad selection of caskets and coffins and comprehensive burial services.
                     </p>
                    
                 </div>
