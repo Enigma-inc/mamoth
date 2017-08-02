@@ -13,6 +13,7 @@ Route::group(['prefix' => 'medical'], function () {
     Route::get('/home', 'MedicalPagesController@home')->name('medical-aid.home');
     Route::get('/about-us', 'MedicalPagesController@about')->name('medical-aid.about');
     Route::get('/options', 'MedicalPagesController@options')->name('medical-aid.options');
+    Route::get('/options/primary', 'MedicalPagesController@optionsPrimary')->name('medical-aid.options.primary');
     Route::get('/become-member/{type}', 'MedicalPagesController@becomeMember')->name('medical-aid.become-member');
     Route::get('/benefits', 'MedicalPagesController@benefits')->name('medical-aid.benefits');
     Route::get('/find-doctor', 'MedicalPagesController@findDoctor')->name('medical-aid.find-doctor');

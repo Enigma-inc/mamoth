@@ -91,10 +91,10 @@
                                     <a href="{{route('funeral.claim')}}" class="c-link dropdown-toggle">Claim
                                     </a>
                                 </li>
-                                <li class="c-active">
+                                {{--  <li class="c-active">
                                     <a href="javascript:;" class="c-link dropdown-toggle">Sign Up
                                     </a>
-                                </li>
+                                </li>  --}}
                                 <li class="c-active">
                                     <a href="{{route('funeral.contact')}}" class="c-link dropdown-toggle">Contact Us
                                     </a>
@@ -174,6 +174,9 @@
         <script src="{{asset('medical-aid/assets/plugins/revo-slider/js/extensions/revolution.extension.kenburn.min.js')}}" type="text/javascript"></script>
         <script src="{{asset('medical-aid/assets/plugins/revo-slider/js/extensions/revolution.extension.parallax.min.js')}}" type="text/javascript"></script>
         <script src="{{asset('medical-aid/assets/base/js/scripts/revo-slider/slider-13.js')}}" type="text/javascript"></script>
+
+           <script src="{{asset('medical-aid/assets/base/js/components.js')}}" type="text/javascript"></script>
+        <script src="{{asset('medical-aid/assets/base/js/app.js')}}" type="text/javascript"></script>
         <!-- END: PAGE SCRIPTS -->
         <!-- END: LAYOUT/BASE/BOTTOM -->
     </body>

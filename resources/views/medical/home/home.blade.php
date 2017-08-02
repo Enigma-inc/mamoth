@@ -17,7 +17,7 @@
                 $('.adverts').slick(
                     {
                         dots: false,
-                        arrows: true,
+                        arrows: false,
                         speed: 1500,
                         infinite: true,
                         autoplay: true,

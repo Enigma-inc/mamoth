@@ -16,7 +16,7 @@
             
         </div>
         <div class="welcome-message">
-        <h2>Welcome <span>,</span> Re A U Amohela</h2>
+        <h2 class="message"></h2>
         
         </div>
         

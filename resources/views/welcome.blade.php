@@ -8,7 +8,21 @@
 @section('scripts')
       <script type="text/javascript">
         $(window).on('load', function() {
-            $("#loading").fadeOut(500);
+            $("#loading").fadeOut(10000);
         });
-    </script>
+
+         document.addEventListener('DOMContentLoaded', function(){
+
+         new Typed(".message", {
+           // stringsElement: "message",
+           strings: ['','', "Welcome","Rea U Amohela"],
+           typeSpeed: 100,
+            backDelay: 500,
+            loop: false,
+            //contentType: 'html', // or text
+   
+        });
+
+    });
+        </script>
 @endsection

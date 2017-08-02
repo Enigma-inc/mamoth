@@ -55,10 +55,10 @@
                                             <a href="javascript:;">Request a Quotation
                                             </a>
                                         </li>
-                                        <li class="dropdown-submenu">
+                                        {{--  <li class="dropdown-submenu">
                                             <a href="javascript:;">Login to my Account
                                             </a>
-                                        </li>
+                                        </li>  --}}
 
                                     </ul>
                                 </li>
@@ -87,10 +87,10 @@
                                             <a href="{{route('medical-aid.lodge-claim')}}">Lodge A Claim
                                             </a>
                                         </li>
-                                        <li class="dropdown-submenu">
+                                        {{--  <li class="dropdown-submenu">
                                             <a href="javascript:;">Login to my Account
                                             </a>
-                                        </li>
+                                        </li>  --}}
 
                                     </ul>
                                 </li>
@@ -120,10 +120,10 @@
                                             <a href="{{route('medical-aid.lodge-claim')}}">Lodge A Claim
                                             </a>
                                         </li>
-                                        <li class="dropdown-submenu">
+                                        {{--  <li class="dropdown-submenu">
                                             <a href="javascript:;">Login to my Account
                                             </a>
-                                        </li>
+                                        </li>  --}}
 
                                     </ul>
                                 </li>
@@ -151,10 +151,10 @@
                                     <a href="{{route('medical-aid.contact')}}" class="c-link dropdown-toggle">Contact Us
                                     </a>
                                 </li>
-                                <li class="">
+                                {{--  <li class="">
                                     <a href="javascript:;" class="c-link dropdown-toggle">Member Log-In
                                     </a>
-                                </li>
+                                </li>  --}}
                                 
                          
                             </ul>

@@ -21,6 +21,9 @@ class MedicalPagesController extends Controller
     public function options(){
         return view('medical.options.plan-options')->with(['headerImage'=>$this->getRandomHeaderImage()]);
     }
+    public function optionsPrimary(){
+        return view('medical.options.primary')->with(['headerImage'=>$this->getRandomHeaderImage()]);
+    }
     public function becomeMember($type)
     {
    

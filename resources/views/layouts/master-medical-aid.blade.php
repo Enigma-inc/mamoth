@@ -137,7 +137,6 @@
         <!-- END: LAYOUT PLUGINS -->
         <!-- BEGIN: THEME SCRIPTS -->
         <script src="{{asset('medical-aid/assets/base/js/components.js')}}" type="text/javascript"></script>
-        <scrmedical-aid/ipt src="{{asset('assets/base/js/components-shop.js')}}" type="text/javascript"></script>
         <script src="{{asset('medical-aid/assets/base/js/app.js')}}" type="text/javascript"></script>
         <script>
             $(document).ready(function()

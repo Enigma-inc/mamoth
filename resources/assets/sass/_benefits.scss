@@ -66,3 +66,33 @@
         }
     }
 }
+
+.single-plan-options {
+    .option-container {
+        display: flex;
+        border: 1px solid #262c66;
+        max-height: 70px;
+        ;
+        border-top-left-radius: 40px;
+        border-bottom-left-radius: 40px;
+        .header {
+            display: flex;
+            background: #262c66;
+            border-top-left-radius: 40px;
+            border-bottom-left-radius: 40px;
+            width: 250px;
+            align-items: center;
+            h2 {
+                color: #fff;
+            }
+            img {
+                height: 65px;
+            }
+        }
+        .details {
+            display: flex;
+            padding-left: 10px;
+            align-items: center;
+        }
+    }
+}
