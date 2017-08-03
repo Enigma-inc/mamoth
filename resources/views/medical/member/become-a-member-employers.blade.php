@@ -24,7 +24,7 @@
                             <div class="c-title c-font-20 c-font-bold c-font-uppercase">Select a preferred option for your employees</div>
                              <div class="c-description c-font-17 text-justify">
                             Your employees’ health is important, and you can contribute to their ability to access the best healthcare available when they need it most. Our options include comprehensive healthcare benefits, as well as a suite of tools and services that assist in managing their health.
-                            ( <a href="#">Primary</a> , <a href="#">Standard</a> , <a href="#">Standard plus</a> and <a href="#">Elite</a> ).
+                            ( <a href="{{route('medical-aid.options.primary')}}">Primary</a> , <a href="{{route('medical-aid.options.standard')}}">Standard</a> , <a href="{{route('medical-aid.options.standard-plus')}}">Standard plus</a> and <a href="{{route('medical-aid.options.elite')}}">Elite</a> ).
 
                             </div>
                         </div>

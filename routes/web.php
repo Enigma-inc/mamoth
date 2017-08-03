@@ -14,6 +14,9 @@ Route::group(['prefix' => 'medical'], function () {
     Route::get('/about-us', 'MedicalPagesController@about')->name('medical-aid.about');
     Route::get('/options', 'MedicalPagesController@options')->name('medical-aid.options');
     Route::get('/options/primary', 'MedicalPagesController@optionsPrimary')->name('medical-aid.options.primary');
+    Route::get('/options/standard', 'MedicalPagesController@standard')->name('medical-aid.options.standard');
+    Route::get('/options/standard-plus', 'MedicalPagesController@standardPlus')->name('medical-aid.options.standard-plus');
+    Route::get('/options/elite', 'MedicalPagesController@elite')->name('medical-aid.options.elite');
     Route::get('/become-member/{type}', 'MedicalPagesController@becomeMember')->name('medical-aid.become-member');
     Route::get('/benefits', 'MedicalPagesController@benefits')->name('medical-aid.benefits');
     Route::get('/find-doctor', 'MedicalPagesController@findDoctor')->name('medical-aid.find-doctor');

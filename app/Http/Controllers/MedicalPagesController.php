@@ -24,6 +24,15 @@ class MedicalPagesController extends Controller
     public function optionsPrimary(){
         return view('medical.options.primary')->with(['headerImage'=>$this->getRandomHeaderImage()]);
     }
+    public function standard(){
+        return view('medical.options.standard')->with(['headerImage'=>$this->getRandomHeaderImage()]);
+    }
+    public function elite(){
+        return view('medical.options.elite')->with(['headerImage'=>$this->getRandomHeaderImage()]);
+    }
+    public function standardPlus(){
+        return view('medical.options.standard-plus')->with(['headerImage'=>$this->getRandomHeaderImage()]);
+    }
     public function becomeMember($type)
     {
    

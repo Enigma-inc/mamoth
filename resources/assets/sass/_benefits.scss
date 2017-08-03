@@ -70,29 +70,35 @@
 .single-plan-options {
     .option-container {
         display: flex;
-        border: 1px solid #262c66;
-        max-height: 70px;
+        border-bottom: 1px solid lighten(#000, 30%);
+        flex-direction: column;
+        height: 140px;
         ;
-        border-top-left-radius: 40px;
-        border-bottom-left-radius: 40px;
+        //  border-top-left-radius: 40px;
+        //  border-bottom-left-radius: 40px;
         .header {
             display: flex;
-            background: #262c66;
-            border-top-left-radius: 40px;
-            border-bottom-left-radius: 40px;
-            width: 250px;
             align-items: center;
             h2 {
-                color: #fff;
+                margin-left: 10px;
+                color: lighten(#000, 30%);
+                font-weight: 600;
             }
             img {
-                height: 65px;
+                margin: 5px 0 0 5px;
+                height: 45px;
             }
         }
         .details {
             display: flex;
-            padding-left: 10px;
+            padding-left: 60px;
             align-items: center;
+            p {
+                color: darken(#5c6873, 20%);
+            }
         }
+    }
+    .option-container:nth-child(odd) {
+        //background: lighten(#262c66, 70%);
     }
 }

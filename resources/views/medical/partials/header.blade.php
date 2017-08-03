@@ -51,10 +51,10 @@
                                             <a href="{{route('medical-aid.lodge-claim')}}">Lodge A Claim
                                             </a>
                                         </li>
-                                        <li class="dropdown-submenu">
+                                        {{--  <li class="dropdown-submenu">
                                             <a href="javascript:;">Request a Quotation
                                             </a>
-                                        </li>
+                                        </li>  --}}
                                         {{--  <li class="dropdown-submenu">
                                             <a href="javascript:;">Login to my Account
                                             </a>

@@ -25,16 +25,24 @@
                             <div class="c-description padding-0">
                                 <div id="options">
                                     <div>
+                                    <a href="{{route('medical-aid.options.elite')}}">
                                         <img class="member-option" src="http://localhost:8000/medical-aid/images/options/elite.png" alt="Elite Option">
+                                    </a>
                                     </div>
                                     <div>
+                                    <a href="{{route('medical-aid.options.standard-plus')}}">
                                         <img class="member-option" src="http://localhost:8000/medical-aid/images/options/standard-plus.png" alt="standard plus">
+                                    </a>
                                     </div>
                                     <div>
+                                    <a href="{{route('medical-aid.options.standard')}}">
                                         <img class="member-option" src="http://localhost:8000/medical-aid/images/options/standard.png" alt="standard">
+                                    </a>
                                     </div>
                                     <div>
+                                    <a href="{{route('medical-aid.options.primary')}}">
                                         <img class="member-option" src="http://localhost:8000/medical-aid/images/options/primary.png" alt="primary">
+                                    </a>
                                     </div>
                                 </div>
                             </div>
