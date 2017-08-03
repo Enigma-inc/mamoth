@@ -52,8 +52,8 @@
    @yield('content')
    @include('social-media')
 </div>
-        
-        <footer class="c-layout-footer c-layout-footer-6 c-bg-grey-1">
+        <a name="footer"></a>
+        <footer class="c-layout-footer c-layout-footer-6 c-bg-grey-1" style="position:relative">
            <div class="container">
                 <div class="c-prefooter c-bg-white">
                     <div class="c-body">

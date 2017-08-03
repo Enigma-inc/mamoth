@@ -140,3 +140,12 @@ ul {
     width: 100% !important;
     height: 100% !important;
 }
+
+.adverts-main-container {
+    @media only screen and (min-width: 991px) {
+        height: 200px;
+    }
+    @media only screen and (max-width: 991px) {
+        height: 500px;
+    }
+}

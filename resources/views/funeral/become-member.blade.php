@@ -13,13 +13,18 @@
                 </div>
             </div>
             <div class="row">
+            <div class="col-xs-12">
+                     <p class="margin-bottom-20 c-font-20">
+                     <strong>Becoming a member:</strong>
+                    </p>
+            </div>
                 <div class="col-md-12">
                     <p class=" c-font-17">
                       <strong>Standard Policy Rules</strong>
                         <ul class="c-content-list-1 c-theme">
-                            <li>For natural death, waiting period is six months for the main member and all dependents </li>
-                            <li>There is no waiting period for accidental death</li>
-                            <li>Do not miss your monthly premiums</li>
+                            <li>For natural deaths, the waiting period is six months for the main member and all dependents </li>
+                            <li>There is no waiting period for accidental deaths</li>
+                            <li>For you to receive your benefits, no monthly premiums should be missed</li>
                         </ul>
 
 
@@ -27,9 +32,7 @@
                    
                 </div>
                      <div class="col-xs-12">
-                      <p class="margin-bottom-20">
-                     <strong>Becoming a member:</strong>
-                    </p>
+             
                             <div class="col-sm-6">
                             <ul>
                                 <li><strong><small>1. As an individual or family:</small></strong>

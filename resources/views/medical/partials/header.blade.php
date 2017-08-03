@@ -72,7 +72,7 @@
                                             </a>
                                         </li>
                                           <li class="dropdown-submenu">
-                                            <a href="#">Become A Member
+                                            <a href="{{route('medical-aid.become-member',['type'=>'employers'])}}">Become A Member
                                             </a>
                                         </li>
                                         <li class="dropdown-submenu">

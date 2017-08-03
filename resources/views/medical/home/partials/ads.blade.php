@@ -1,4 +1,4 @@
-<div style="height:200px;">
+<div class="adverts-main-container">
 <div class="c-content-box advert-container  c-size-md c-bg-white padding-0 col-md-6">
 <div class="margin-top-30">
     <iframe width="100%" height="183" src="https://www.youtube.com/embed/u4uP5tnypgk" frameborder="0" allowfullscreen></iframe>
