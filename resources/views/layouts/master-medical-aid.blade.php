@@ -47,11 +47,12 @@
 
   
 <body class="c-layout-header-fixed c-layout-header-mobile-fixed c-layout-header-fullscreen medical-aid-page">
+<div class="row">
    @include('medical.partials.header')
    @yield('content')
    @include('social-media')
 </div>
-        <a name="footer"></a>
+        
         <footer class="c-layout-footer c-layout-footer-6 c-bg-grey-1">
            <div class="container">
                 <div class="c-prefooter c-bg-white">

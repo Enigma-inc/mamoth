@@ -2,12 +2,7 @@
 @section('content')
 <div class="c-layout-page">
  @include('medical.home.partials.banner')
-<div class="container">
  @include('medical.home.partials.ads')
- 
-</div>
-
-
 </div>
 @endsection
 

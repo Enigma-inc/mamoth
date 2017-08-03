@@ -8,7 +8,7 @@
 @section('scripts')
       <script type="text/javascript">
         $(window).on('load', function() {
-            $("#loading").fadeOut(10000);
+            $("#loading").fadeOut(12000);
         });
 
          document.addEventListener('DOMContentLoaded', function(){
@@ -17,7 +17,7 @@
            // stringsElement: "message",
            strings: ['','', "Welcome","Rea U Amohela"],
            typeSpeed: 100,
-            backDelay: 500,
+           // backDelay: 500,
             loop: false,
             //contentType: 'html', // or text
    
