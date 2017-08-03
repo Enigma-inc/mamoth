@@ -26,22 +26,22 @@
                                 <div id="options">
                                     <div>
                                     <a href="{{route('medical-aid.options.elite')}}">
-                                        <img class="member-option" src="{{route('medical-aid/images/options/elite.png')}}" alt="Elite Option">
+                                        <img class="member-option" src="{{asset('medical-aid/images/options/elite.png')}}" alt="Elite Option">
                                     </a>
                                     </div>
                                     <div>
                                     <a href="{{route('medical-aid.options.standard-plus')}}">
-                                        <img class="member-option" src="{{route('medical-aid/images/options/standard-plus.png')}}" alt="standard plus">
+                                        <img class="member-option" src="{{asset('medical-aid/images/options/standard-plus.png')}}" alt="standard plus">
                                     </a>
                                     </div>
                                     <div>
                                     <a href="{{route('medical-aid.options.standard')}}">
-                                        <img class="member-option" src="{{route('medical-aid/images/options/standard.png')}}" alt="standard">
+                                        <img class="member-option" src="{{asset('medical-aid/images/options/standard.png')}}" alt="standard">
                                     </a>
                                     </div>
                                     <div>
                                     <a href="{{route('medical-aid.options.primary')}}">
-                                        <img class="member-option" src="{{route('medical-aid/images/options/primary.png')}}" alt="primary">
+                                        <img class="member-option" src="{{asset('medical-aid/images/options/primary.png')}}" alt="primary">
                                     </a>
                                     </div>
                                 </div>
