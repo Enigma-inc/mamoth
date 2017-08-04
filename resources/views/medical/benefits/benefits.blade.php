@@ -75,7 +75,7 @@
                                         <div class="col-md-4 col-sm-6 col-xs-12">
                                             <div class="benefit-container">
                                                 <div class="header">
-                                                    <img class="icon" src="{{asset('medical-aid/images/icons/optometry.png')}}" alt="benefit">
+                                                    <img class="icon" src="{{asset('medical-aid/images/icons/optometry.png?v=1')}}" alt="benefit">
                                                     <div class="text">
                                                         <h2>Optometry</h2>
                                                     </div>

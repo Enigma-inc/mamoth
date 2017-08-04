@@ -178,7 +178,7 @@
             </div>
             <div class="option-container col-xs-12 col-xs-6 col-md-4">
                 <div class="header">
-                <img class="icon" src="{{asset('medical-aid/images/icons/optometry.png')}}">
+                <img class="icon" src="{{asset('medical-aid/images/icons/optometry.png?v=1')}}">
                  <h2>Optometry</h2>
                 </div>
                 <div class="details">
