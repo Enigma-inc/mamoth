@@ -7,7 +7,7 @@
                    <div class="row">
                     <div class="col-md-12">
                         <div class="c-content-title-1 c-margin-b-20">
-                            <h3 class="c-center c-font-uppercase c-font-bold"> Standard Option</h3>
+                            <h3 class="c-center c-font-uppercase c-font-bold"> Elite Option</h3>
                             <div class="c-line-center"></div>
                             <p class="c-font-17"></p>
                         </div>

@@ -150,7 +150,9 @@
                  <h2>Consultation</h2>
                 </div>
                 <div class="details">
-                 <p></p>
+                 <p>
+                      M7,707.00 for General Practitioner services, Alternative Healthcare Practitioners, Medicines, Injections and Pharmacy Advised Therapy
+                 </p>
                 
                 </div>
             </div>
