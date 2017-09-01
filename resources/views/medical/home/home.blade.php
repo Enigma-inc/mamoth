@@ -1,4 +1,12 @@
 @extends('layouts.master-medical-aid')
+@section('seo')
+    <link rel="canonical" href="http://www.mamoth.co.ls"/>
+    <meta property="og:description" content="Mamoth Health Plan is a medical aid product of Mamoth Employee Benefits. Established in 2003, Mamoth Health Plan is the leading Medical Aid Service Provider in Lesotho that offers health care services locally and regionally." />
+    <meta property="og:title" content="Mamoth Health Plan" />
+    <meta property="og:url" content="http://www.mamoth.co.ls/medical/home" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="{{asset('medical-aid/images/mamoth-og.jpg')}}" />
+@endsection
 @section('content')
 <div class="c-layout-page">
  @include('medical.home.partials.banner')

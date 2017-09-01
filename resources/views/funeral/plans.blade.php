@@ -1,4 +1,12 @@
 @extends('layouts.master-funeral')
+@section('seo')
+    <link rel="canonical" href="http://www.mamoth.co.ls/funeral/home"/>
+    <meta property="og:description" content="Mamothe Funeral Home is the premium funeral service provider in the Kingdom of Lesotho." />
+    <meta property="og:title" content="Plans | Mamothe Funeral Home" />
+    <meta property="og:url" content="http://www.mamoth.co.ls/funeral/plans" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="{{asset('funeral/images/mamothe-og.jpg')}}" />
+@endsection
 @section('content')    
   @include('medical.partials.inner-page-banner')
     <div class="c-content-box c-size-md c-bg-white funeral-page">

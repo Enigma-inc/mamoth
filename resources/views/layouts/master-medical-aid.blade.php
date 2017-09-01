@@ -11,9 +11,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <meta http-equiv="Content-type" content="text/html; charset=utf-8">
-    <meta content="" name="description"/>
-    <meta content="" name="author"/>
- <!-- BEGIN GLOBAL MANDATORY STYLES -->
+    <meta name="description" content="Mamoth Health Plan is a medical aid product of Mamoth Employee Benefits. Established in 2003, Mamoth Health Plan is the leading Medical 
+    Aid Service Provider in Lesotho that offers health care services locally and regionally.">
+    <meta name="keywords" content="Health Plan, Lesotho Medical Aid, Mamoth,Mamoth Lesotho">
+    @yield('seo')
+
         <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700&amp;subset=all' rel='stylesheet' type='text/css'>
         <link href="{{asset('medical-aid/assets/plugins/socicon/socicon.css')}}" rel="stylesheet" type="text/css" />
         <link href="{{asset('medical-aid/assets/plugins/bootstrap-social/bootstrap-social.css')}}" rel="stylesheet" type="text/css" />
@@ -21,8 +23,7 @@
         <link href="{{asset('medical-aid/assets/plugins/simple-line-icons/simple-line-icons.min.css')}}" rel="stylesheet" type="text/css" />
         <link href="{{asset('medical-aid/assets/plugins/animate/animate.min.css')}}" rel="stylesheet" type="text/css" />
         <link href="{{asset('medical-aid/assets/plugins/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet" type="text/css" />
-        <!-- END GLOBAL MANDATORY STYLES -->
-        <!-- BEGIN: BASE PLUGINS  -->
+
         <link href="{{asset('medical-aid/assets/plugins/revo-slider/css/settings.css')}}" rel="stylesheet" type="text/css" />
         <link href="{{asset('medical-aid/assets/plugins/revo-slider/css/layers.css')}}" rel="stylesheet" type="text/css" />
         <link href="{{asset('medical-aid/assets/plugins/revo-slider/css/navigation.css')}}" rel="stylesheet" type="text/css" />

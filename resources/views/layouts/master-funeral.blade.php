@@ -11,25 +11,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <meta http-equiv="Content-type" content="text/html; charset=utf-8">
-    <meta content="" name="description"/>
-    <meta content="" name="author"/>
+
+    <meta name="description" content="Mamothe Funeral Home is the premium funeral service provider in the Kingdom of Lesotho. ">
+    <meta name="keywords" content="Funeral, Lesotho mortuary, Funeral Benefits,Caskets,coffins,Burial services,Mortuary service">
+    @yield('seo')
+
  <!-- BEGIN GLOBAL MANDATORY STYLES -->
         <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700&amp;subset=all' rel='stylesheet' type='text/css'>
         <link href="{{asset('medical-aid/assets/plugins/socicon/socicon.css')}}" rel="stylesheet" type="text/css" />
-        <link href="{{asset('medical-aid/assets/plugins/bootstrap-social/bootstrap-social.css')}}" rel="stylesheet" type="text/css" />
+        <!-- <link href="{{asset('medical-aid/assets/plugins/bootstrap-social/bootstrap-social.css')}}" rel="stylesheet" type="text/css" /> -->
         <link href="{{asset('medical-aid/assets/plugins/font-awesome/css/font-awesome.min.css')}}" rel="stylesheet" type="text/css" />
-        <link href="{{asset('medical-aid/assets/plugins/simple-line-icons/simple-line-icons.min.css')}}" rel="stylesheet" type="text/css" />
-        <link href="{{asset('medical-aid/assets/plugins/animate/animate.min.css')}}" rel="stylesheet" type="text/css" />
+        <!-- <link href="{{asset('medical-aid/assets/plugins/simple-line-icons/simple-line-icons.min.css')}}" rel="stylesheet" type="text/css" /> -->
+        <!-- <link href="{{asset('medical-aid/assets/plugins/animate/animate.min.css')}}" rel="stylesheet" type="text/css" /> -->
         <link href="{{asset('medical-aid/assets/plugins/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet" type="text/css" />
         <!-- END GLOBAL MANDATORY STYLES -->
         <!-- BEGIN: BASE PLUGINS  -->
-        <link href="{{asset('medical-aid/assets/plugins/revo-slider/css/settings.css')}}" rel="stylesheet" type="text/css" />
+        <!-- <link href="{{asset('medical-aid/assets/plugins/revo-slider/css/settings.css')}}" rel="stylesheet" type="text/css" />
         <link href="{{asset('medical-aid/assets/plugins/revo-slider/css/layers.css')}}" rel="stylesheet" type="text/css" />
         <link href="{{asset('medical-aid/assets/plugins/revo-slider/css/navigation.css')}}" rel="stylesheet" type="text/css" />
         <link href="{{asset('medical-aid/assets/plugins/cubeportfolio/css/cubeportfolio.min.css')}}" rel="stylesheet" type="text/css" />
         <link href="{{asset('medical-aid/assets/plugins/owl-carousel/owl.carousel.css')}}" rel="stylesheet" type="text/css" />
         <link href="{{asset('medical-aid/assets/plugins/fancybox/jquery.fancybox.css')}}" rel="stylesheet" type="text/css" />
-        <link href="{{asset('medical-aid/assets/plugins/slider-for-bootstrap/css/slider.css')}}" rel="stylesheet" type="text/css" />
+        <link href="{{asset('medical-aid/assets/plugins/slider-for-bootstrap/css/slider.css')}}" rel="stylesheet" type="text/css" /> -->
         <!-- END: BASE PLUGINS -->
         <!-- BEGIN THEME STYLES -->
         <link href="{{asset('medical-aid/assets/base/css/plugins.css')}}" rel="stylesheet" type="text/css" />
@@ -150,7 +153,7 @@
         <!-- END: CORE PLUGINS -->
         <!-- BEGIN: LAYOUT PLUGINS -->
         <script src="{{asset('medical-aid/assets/plugins/revo-slider/js/jquery.themepunch.tools.min.js')}}" type="text/javascript"></script>
-        <script src="{{asset('medical-aid/assets/plugins/revo-slider/js/jquery.themepunch.revolution.min.js')}}" type="text/javascript"></script>
+       / <!-- <script src="{{asset('medical-aid/assets/plugins/revo-slider/js/jquery.themepunch.revolution.min.js')}}" type="text/javascript"></script> -->
         <script src="{{asset('medical-aid/assets/plugins/revo-slider/js/extensions/revolution.extension.slideanims.min.js')}}" type="text/javascript"></script>
         <script src="{{asset('medical-aid/assets/plugins/revo-slider/js/extensions/revolution.extension.layeranimation.min.js')}}" type="text/javascript"></script>
         <script src="{{asset('medical-aid/assets/plugins/revo-slider/js/extensions/revolution.extension.navigation.min.js')}}" type="text/javascript"></script>

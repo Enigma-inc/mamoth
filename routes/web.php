@@ -8,7 +8,7 @@ Route::get('download/{file}','MedicalPagesController@download')->name('download'
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-
+Route::get('/funeral', 'FuneralPagesController@home')->name('funeral.home');
 Route::group(['prefix' => 'medical'], function () {
     Route::get('/home', 'MedicalPagesController@home')->name('medical-aid.home');
     Route::get('/about-us', 'MedicalPagesController@about')->name('medical-aid.about');
@@ -24,7 +24,7 @@ Route::group(['prefix' => 'medical'], function () {
     Route::get('/contact-us', 'MedicalPagesController@contact')->name('medical-aid.contact');
 });
 
-Route::group(['prefix' => 'funeral'], function () {
+Route::group(['prefix' => 'funeral'], function () { 
    Route::get('/home', 'FuneralPagesController@home')->name('funeral.home');
    Route::get('/about-us','FuneralPagesController@about')->name('funeral.about');
    Route::get('/plans','FuneralPagesController@plans')->name('funeral.plans');
